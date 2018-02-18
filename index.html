@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Eat the Weeds</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link rel="stylesheet" href="main.css">
+<!--fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Oswald">
+        <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css">
+        <link rel="stylesheet" href="fonts/fontawesome/on-server/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+
+
+    </head>
+
+    <body>
+
+      <section class="cover-page" role="region">
+        <h1>eat the weeds</h1>
+        <h2>It is estimated that only 3% of the world's edible plants make up 90% of the world's plant food supply.<br/> The rest are all around you. </h2>
+        <button>
+          <span class="link">enter</span>
+        </button>
+      </section>
+
+      <section class="intro-page" role="region">
+        <h1>What is foraging?</h1>
+        <h2>Foraging is the act of looking for wild plants and fungi, that are edible.</h2>
+        <h1>...and why should I care?</h1>
+        <ul>
+          <li><i class="ionicons ion-ios-nutrition"></i> Wild edibles tend to be higher in mineral and nutrient content than cultivated edibles</li>
+          <li><i class="fa fa-sun-o"></i> It's a fun way to get excercise and experience the benefits of being outdoors</li>
+          <li><i class="fi-trees"></i> You'll be developing your "natural literacy"</li>
+        </ul>
+        <button>Let's forage</button>
+      </section>
+
+      <section class="search-options" role="region">
+        <h1>How do you want to begin your foraging journey?</h1>
+        <div class="options">
+          <div class="option-button">
+            <p>browse by image</p>
+          </div>
+          <div class="option-button">
+            <p>browse by location</p>
+          </div>
+        </div>
+      </section>
+
+      <!---if user chooses "browse by location", this page will allow them to a global map with tags of all IDed edible plants and fungi, and will allow them to zoom into their area -->
+      <section class="location-browse js-location-browse" role="region">
+        <h1>edible weeds near you</h1>
+        <form>
+          <div class="filter-box">
+            <p>filter search results:</p>
+            <input type="radio" id="filterByPlants" class="filter-results"
+             name="filter-results" value="plants">
+            <label for="filterByPlants">plants</label>
+
+            <input type="radio" id="filterByFungi" class="filter-results"
+             name="filter-results" value="fungi">
+            <label for="filterByFungi">fungi</label>
+
+            <input type="radio" id="noFilter" class="filter-results"
+             name="filter-results" value="both">
+            <label for="noFilter">both</label>
+          </div>
+          <div class="bottom">
+            <div class="zipcode-box">
+              <label for="zipcode">Zip Code</label>
+              <input type="number" id="zipcode" name="usersZipCode">
+            </div>
+              <input class="location-submit" id="js-location-submit" type="submit" value="submit">
+          </div>
+        </form>
+        <div id="map js-map">
+
+        </div>
+      </section>
+
+      <section class="image-grid js-image-grid" role="region">
+<!---if user chooses "browse by image", this page is dynamically generated for each image from the edible weeds and fungi API
+
+  -->
+      </section>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYAtSRwWtEhFvISZImSNdvds4BOy6WTsg&callback=initializeMap">
+        <script src="app.js"></script>
+    </body>
+</html>

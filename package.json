@@ -1,0 +1,22 @@
+{
+  "name": "api_project",
+  "version": "1.0.0",
+  "description": "thinkful API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibiqiqi/API-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibiqiqi/API-project/issues"
+  },
+  "homepage": "https://github.com/bibiqiqi/API-project#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

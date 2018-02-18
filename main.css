@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+section {
+  width: 90%;
+  height: 600px;
+  margin: 20% auto;
+}
+
+/*@font-face {
+font-family: 'Comfortaa';
+src: url('./fonts/comfortaa.001/Comfortaa-Regular.ttf');
+}*/
+
+h1 {
+  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Comfortaa';*/
+  margin: 5% auto;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 5% auto;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  border: 1px dotted greenYellow;
+  background-color: white;
+}
+
+section {
+  text-align: center;
+}
+/*learn about wild plants and <br/>fungi through foraging*/
+
+.cover-page button{
+  margin: 5% auto;
+}
+
+.intro-page h1 {
+  font-size: 3em;
+}
+
+.intro-page button {
+  margin: 10% auto;
+}
+
+.search-options h1 {
+  font-size: 3em;
+  margin: 10% auto;
+}
+
+.search-options .options {
+  margin: 20% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.options .option-button {
+  font-size: 1.75em;
+  width: calc(50% - 1.9em);
+  padding: .5em;
+  border: 1px solid black;
+}
+
+.location-browse h1 {
+  font-size: 3em;
+  margin: 20px auto;
+}
+
+.location-browse p, .location-browse label .location-browse input{
+  font-size: 1em;
+}
+
+.location-browse form {
+  width: 90%;
+  margin 0 auto;
+}
+
+.location-browse .filter-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.location-browse .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.bottom .zipcode-box #zipcode {
+  border: 1px greenYellow solid;
+  width: 5em;
+}
+
+.bottom label, .filter-box p {
+  font-weight: bold;
+}
+
+.bottom .location-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  border: 1px greenYellow solid;
+  background-color: white;
+}
+
+.location-browse .map {
+  border: 1px solid black;
+  width: 90%;
+  height: 400px;
+  margin: 20px auto
+}
+
+.image-browse {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-browse a {
+  width: calc(50% - 4em);
+}
