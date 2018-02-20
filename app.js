@@ -1,124 +1,156 @@
 const iNAT_SEARCH_URL = 'https://www.inaturalist.org/observations';
 const EDIBLES_JSON = 'http://localhost:8080/edibles.json';
-let SCIENTIFIC_NAMES = [];
-let USERS_ZIPCODE;
-let LATLNG = {
-  lat: '',
-  lng: ''
-}
 
-//pass getUsersFilter (which returns 'plants' 'fungi' or 'both') as argument, into this function
-//this function pushes the values of all the scientific names of the plants and or fungi that the user wants into the
-//global array SCIENTIFIC_NAMES
-function pushScientificNames(usersFilter) {
+let MY_LIB = {};
+
+//function iterates through the json file of edible plants and fungi
+//a callback function (pushScientificNames or getEdibleInfo) is passed as argument
+function  iterateThroughJson(callback) {
   $.getJSON(EDIBLES_JSON, function(data) {
-      let obj = data.usersFilter;
+    let obj = data[MY_LIB.usersFilter];
+//if user chooses no filter,
+    if (MY_LIB.usersFilter == 'both') {
+//then iterate through the whole json object, first
+      for (var key in data) {
+        if (data.hasOwnProperty(key)) {
+//THEN iterate through each item in that array
+          obj.forEach(function(item) {
+//and each property in that object
+            for (var key in item) {
+              if (item.hasOwnProperty(key)) {
+                callback();
+                console.log(callback());
+              }
+            }
+          });
+        }
+      }
+//otherwise, just iterate through that specific array and call the callback functiona
+  } else {
+//JUST iterate through each item in that array
       obj.forEach(function(item) {
-  //iterate through each object
+//and each property in that object
         for (var key in item) {
           if (item.hasOwnProperty(key)) {
-  //create an array of all the scientific names from that json file
-            SCIENTIFIC_NAMES.push(item.scientificName);
+            callback();
+            console.log(callback());
           }
         }
       });
-      console.log(SCIENTIFIC_NAMES);
-  });
-}
-
-//pass getUsersFilter (which returns 'plants' 'fungi' or 'both') as argument, into this function
-//based on what getUsersFilter returns, this function either iterates through the whole json object, or only parts of it,
-//and calls the pushScientificNames function to create an array of just the scientific names of those plants
-function  iterateThroughEdibles(usersFilter) {
-  $.getJSON(EDIBLES_JSON, function(data) {
-//if user chooses no filter, then iterate through the whole json object first
-    if (usersFilter == 'both') {
-      for (var key in data) {
-        if (data.hasOwnProperty(key)) {
-//THEN call the function that iterates through each array and pushes the scientific names to a new array
-          pushScientificNames(usersFilter);
-        }
-      }
-    }
-//otherwise, just iterate through that specific array
-    else {
-      pushScientificNames(usersFilter);
     }
   });
 }
-
-//converts zipcode to Geo Coordinates and assigns those values to global object LATLNG
-function zipToGeo() {
- geocoder.geocode( { 'address': USERS_ZIPCODE}, function(results, status) {
-   if (status == google.maps.GeocoderStatus.OK) {
-      LATLNG.lat = results[0].geometry.location.lat();
-      LATLNG.lng = results[0].geometry.location.lng();
-   } else {
-     alert("Geocode was not successful for the following reason: " + status);
-   }
- });
- alert('Latitude: ' + LATLNG.lat + ' Longitude: ' + LATLNG.lng);
-}
-
-//initializes a map, using the google maps API, thats centered at the geo coordinates of the user
-function initializeMap() {
-  let mapOptions = {
-    zoom: 8,
-    center: LATLNG
+//passing the result item's scientific name into this function,
+//it returns info about edibility, pulled from edibles.json
+function getEdibilInfo(itemScientificName, dataObj) {
+  let usersFilter = MY_LIB.usersFilter;
+  if (dataObj.usersFilter.scientificName == itemScientificName) {
+    return (`${dataObj.usersFilter.edibility} </br> Recipe: <a href="${dataObj.usersFilter.recipes.recipeName_url}">${dataObj.usersFilter.recipes.recipeName}</a>`);
   }
-  google.maps.Map(document.getElementById('js-map'), mapOptions);
 }
 
+//this function creates an array that's a property within my global object MY_LIB
+//then pushes the values of all the scientific names of the plants and or fungi that the user wants into the array
+function pushScientificNames() {
+  MY_LIB.scientificNames = [];
+  MY_LIB.scientificNames.push(item.scientificName);
+}
 
 //gets data from iNAT API
-//need to pass zipToGeo(getUsersZipCode) function, SCIENTIFIC_NAMES array, and a callback function that turns the results into markers
-//also, mappable=true, geo=true,
-function getDataFromiNat(geoCoord, callback) {
+//initializes a map, using Google maps API, thats centered at the geo coordinates of the user
+//sets the markers on the map
+function iNatDataToMarkers() {
   const query = {
-    taxon_name : SCIENTIFIC_NAMES,
-    lat: LATLNG.lat,
-    lng: LATLNG.lng,
+    taxon_name : MY_LIB.scientificNames,
+    lat: MY_LIB.latLng.lat,
+    lng: MY_LIB.latLng.lng,
     radius: 16,
+    mappable: true,
+    geo: true
   };
-  $.getJSON(iNAT_SEARCH_URL, query, callback);
+  $.getJSON(iNAT_SEARCH_URL, query, function (data) {
+    //callback function for json request
+    let resultsArray = data.results;
+    results.forEach(function(result) {
+    //for each result item, create a marker at corresponding location
+      let marker = new google.maps.Marker({
+        position: results.location,
+        map: map
+      });
+    //and a corresponding info window
+    //resultsArray.taxon.name
+      let infoWindow = new google.maps.InfoWindow({
+        content: `
+          <h1>Scientific Name: ${results.taxon.name}</h1>
+          <h2>Common Name: ${results.preferred_common_name}</h2>
+          <p>${iterateThroughJson(getEdibleInfo(results.taxon.name, data))}</p>
+          `
+      });
+    });
+  });
 }
 
-//function generateImageGrid() {
-//generates html markup for the image grid that users can browse through.
-//will repeat the code for one image by the number of images that exist in the json files
-//  $('.js-image-grid').html(`
-//    <section class="image-browse" role="region">
-//      <div class="image-grid">
-//        <a href="path-to-the-image">
-//          <figure>
-//            <img src="path-to-the-image" alt="">
-//            <figcaption>plant name</figcaption>
-//          </figure>
-//        </a>
-//      </div>
-//    </section>
-//    `);
-//}
+//converts zipcode to Geo Coordinates and assigns those values to the property LatLng in the global object MY_LIB
+function zipToGeo() {
+  MY_LIB.latLng = {};
+  let geocoder = new google.maps.Geocoder();
+  geocoder.geocode( { 'address': MY_LIB.usersZipcode }, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      MY_LIB.latLng.lat = results[0].geometry.location.lat();
+      MY_LIB.latLng.lng = results[0].geometry.location.lng();
+    } else {
+     alert("Geocode was not successful for the following reason: " + status);
+    }
+  });
+   alert('Latitude: ' + MY_LIB.latLng.lat + ' Longitude: ' + MY_LIB.latLng.lng);
+}
+
+function initMap() {
+  let options = {
+    zoom: 5,
+    center:MY_LIB.latLng
+  }
+  let map = new google.maps.Map(document.getElementById('js-map'), options);
+}
 
 //event listeners
-function getUsersFilter () {
-  $('.js-question-submit').off();
+function doTheMap() {
   $('#js-location-submit').on("click", function(event) {
     event.preventDefault();
-    let usersFilter = $('.filter-results:checked').val();
-    iterateThroughEdibles(usersFilter);
+    //get the filter option user chooses (plants, fungi, or both)
+    MY_LIB.usersFilter = $('.filter-results:checked').val();
+    //alert(MY_LIB.usersFilter);
+    //create an array of scientific names for user's chosen filter, and store as a property of global object MY_LIB,
+    // that will be used as a search query for the iNat API
+    iterateThroughJson(pushScientificNames());
+    //get the value of the user's zipcode for generating the map
+    MY_LIB.usersZipcode = $('#zipcode').val();
+    //alert(MY_LIB.usersZipcode);
+    //convert the users zipCode to geo coordinates and store as a property of global object MY_LIB
+    zipToGeo();
+    //queries iNat api with the array of scientific names and the user's location, creates a map, and sets markers According
+    //to the locations of the iNat observations that match the query
+    //calls iterateThroughJson() and getEdibleInfo()
+    iNatDataToMarkers();
   });
+
  }
 
- function getUsersZipcode () {
- $('.js-question-submit').off();
- $('#js-location-submit').on("click", function(event) {
-   event.preventDefault();
-   let usersZipcode = $('#zipcode').val();
-   //clear out the input
-   usersLocal.zipcode = $('#zipcode').val("");
- });
- }
+ //function generateImageGrid() {
+ //generates html markup for the image grid that users can browse through.
+ //will repeat the code for one image by the number of images that exist in the json files
+ //  $('.js-image-grid').html(`
+ //    <section class="image-browse" role="region">
+ //      <div class="image-grid">
+ //        <a href="path-to-the-image">
+ //          <figure>
+ //            <img src="path-to-the-image" alt="">
+ //            <figcaption>plant name</figcaption>
+ //          </figure>
+ //        </a>
+ //      </div>
+ //    </section>
+ //    `);
+ //}
 
-getUsersZipcode();
-getUsersFilter();
+doTheMap();
