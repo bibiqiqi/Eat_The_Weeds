@@ -114,10 +114,7 @@ section {
 }
 
 .location-browse .map {
-  border: 1px solid black;
-  width: 90%;
-  height: 400px;
-  margin: 20px auto
+  height: 100%;
 }
 
 .image-browse {
