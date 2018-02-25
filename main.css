@@ -1,24 +1,13 @@
+
 body {
   box-sizing: border-box;
   font-size: 18px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-section {
-  width: 90%;
-  height: 600px;
-  margin: 20% auto;
-}
-
-/*@font-face {
-font-family: 'Comfortaa';
-src: url('./fonts/comfortaa.001/Comfortaa-Regular.ttf');
-}*/
-
 h1 {
   font-size: 5em;
   font-family: 'Amatic SC', cursive;
-  /*font-family: 'Comfortaa';*/
   margin: 5% auto;
 }
 
@@ -34,94 +23,103 @@ button {
   background-color: white;
 }
 
-section {
+.container {
   text-align: center;
+  height: 90vmax;
+  width: 90vmin;
+  margin-top: 5vmax;
+  margin-bottom:5vmax;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+  position: relative;
 }
-/*learn about wild plants and <br/>fungi through foraging*/
 
 .cover-page button{
   margin: 5% auto;
 }
 
-.intro-page h1 {
+.main-page h1 {
   font-size: 3em;
 }
 
-.intro-page button {
+.main-page button {
   margin: 10% auto;
 }
 
-.search-options h1 {
-  font-size: 3em;
-  margin: 10% auto;
+.main-page #down-arrow {
+  width: 35%;
+  margin: 5em auto 0 auto;
 }
 
-.search-options .options {
-  margin: 20% auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.img-browse .container {
+  margin: 2em auto;
 }
 
-.options .option-button {
-  font-size: 1.75em;
-  width: calc(50% - 1.9em);
-  padding: .5em;
-  border: 1px solid black;
+.img-grid {
+  width: 90vmin;
+  height: 90vmin;
+  background-position: center center;
+  background-size: cover;
+  border: .75em solid black;
+  margin: .5em auto;
 }
 
-.location-browse h1 {
+.img-grid-hover {
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.map-results h1 {
   font-size: 3em;
   margin: 20px auto;
 }
 
-.location-browse p, .location-browse label .location-browse input{
+.map-results p, .map-results label .map-results input{
   font-size: 1em;
 }
 
-.location-browse form {
+.map-results form {
   width: 90%;
   margin 0 auto;
 }
 
-.location-browse .filter-box {
+.map-results .address-box {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.location-browse .bottom {
-  display: flex;
-  justify-content: space-between;
   margin: 10px auto;
   width: 90%;
 }
 
-.bottom .zipcode-box #zipcode {
+.address-box #address {
   border: 1px greenYellow solid;
   width: 5em;
 }
 
-.bottom label, .filter-box p {
-  font-weight: bold;
+.address-box label {
+ flex-grow: 1;
 }
 
-.bottom .location-submit {
+.address-box input {
+  flex-grow: 2;
+}
+
+.map-results .location-submit {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   border: 1px greenYellow solid;
   background-color: white;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.location-browse .map {
+.map-results .map {
   height: 100%;
 }
 
-.image-browse {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image-browse a {
-  width: calc(50% - 4em);
+.hidden {
+  display: none;
 }

@@ -1,292 +1,4 @@
 {
-  "fungi":[
-     {
-        "commonName":"Apricot Jelly",
-        "scientificName":"Guepinia helvelloides",
-        "image":"http://www.ediblewildfood.com/images/apricot-jelly-pictures/Guepinia-helvelloides.jpg",
-        "description":"Overview: The apricot jelly fungi is a widespread fungus easily recognized by its unique shape, rubbery texture, and orange to salmon-pink colouration. The taxonomy has a bit of a convoluted history, resulting in many older field guides listing this species as Phlogiotis helvelloides or Tremiscus helvelloides. It is a saprobic jelly fungus that is quite unique as it dries out, yet rehydrates repeatedly as the rains come and go. Interestingly, they produce a new set of spores each time they rehydrate.",
-        "edibility":"Edibility: Some people claim this has a mild sweet taste, yet most people say it is without flavour. Although some people have eaten these raw, it is important to cook all fungi before eating.",
-        "recipes":[
-           {
-              "recipeName":"Jelly Mushroom Soup",
-              "recipeName_url":"http://www.moroccanfoodlovers.com/?page_id=2312"
-           }
-        ]
-     },
-     {
-        "commonName":"Bear's Head Tooth",
-        "scientificName":"Hericium americanum",
-        "image":"http://www.ediblewildfood.com/images/bears-head-tooth-pictures/Hericium-americanum-1.jpg",
-        "description":"Overview: Hericium americanum (Fam. Hericiaceae) is white when fresh and yellows with age. It has long spines and a branched fruiting body. The fungus is 15-30cm (6-12”) across. It is a tightly branched structure which develops from a rooted base. When young, before the branches have developed, it might be confused with Hericium erinaceus (which is also edible).",
-        "edibility":"Edibility: Edible when young – be sure it is white. Mild nutty taste; cook before eating.",
-        "recipes":[
-           {
-              "recipeName":"Roasted Lion's Mane Mushrooms with Champagne and Honey Mignonette",
-              "recipeName_url":"http://chubbyvegetarian.blogspot.com/2013/11/roasted-lions-mane-mushrooms-with.html?m=1"
-           }
-        ]
-     },
-     {
-        "commonName":"Birch Polypore",
-        "scientificName":"Fomitopsis betulina",
-        "image":"http://www.ediblewildfood.com/images/birch-polypore-pictures/Piptoporus-betulinus.jpg",
-        "description":"Overview: Fomitopsis betulina (previously Piptoporus betulinus) is commonly found in countries around the world that have birch forests. This edible and medicial polypore has been extensively studied and there is ample evidence supporting the antibacterial, anti-parasitic, antiviral, anti-inflammatory, anticancer, neuroprotective, and immunomodulating activities. Birch polpores are a common basidiomycota brown rot macrofungus that grows on decaying birch trees. By the time the white fruiting body emerges, decay to the tree is extensive. In 1753 Carl Linnaeus first described this fungus and referred to it as Boletus suberosus, and later the French mycologist Jean Baptiste Francois (Pierre) Bulliard changed the specific epithet to betulinus - a reference to the birch trees (Betula spp.). In 1821, Bulliard transferred this very common and widespread polypore to the genus Polyporus, where it remained for sixty years. In 1881, Finnish mycologist Petter Adolf Karsten transferred the birch polypore to a new genus, Piptoporus, which he had created.",
-        "edibility":"Edibility: Birch polypores are not known as being a culinary fungi however it can be used in a variety of ways. Young polypores can be sliced thin, marinated then roasted. Cut up and dried, they can be used as a tea although it isn't that great tasting. Dehydrating is a great way to preserve them long term (although exactly how long is not known). Once dehydrated they can be powdered, then add to any dish you prepare. Store in a cool, dark location once dehydrated.",
-        "recipes":[
-           {
-              "recipeName":"Birch Polypore Tea",
-              "recipeName_url":"https://www.youtube.com/watch?v=-VA89OUS1KE"
-           }
-        ]
-     },
-     {
-        "commonName":"Chaga",
-        "scientificName":"Inonotus obliquus",
-        "image":"http://www.ediblewildfood.com/images/chaga-pictures/chaga.jpg",
-        "description":"Overview: Chaga is perhaps the most sought-after and easily recognized fungi in the Hymenochaetaceae family. It is parasitic on birch and occasionally on other trees. This fungus causes white heart rot on several broad-leaved tree species. Chaga forms charcoal-black, sterile conks on infected (mostly) birch (Betula spp.) trees. The dark-coloured part of the sterile conk is formed by a pure mycelial mass of fungus. Typically, well-developed chaga are found on trees over 40 years of age.",
-        "edibility":"Edibility: Chaga must be broken down into a powder form in order to be added into various meals. When broken into small pieces it can be used to make a nourishing tea. Both the exterior and interior parts of chaga is processed into powder form. Harvest from living trees only!",
-        "recipes":[
-           {
-              "recipeName":"Chaga Tea and Tincture",
-              "recipeName_url":"https://chagahq.com/prepare-chaga/"
-           }
-        ]
-     },
-     {
-        "commonName":"Chanterelle",
-        "scientificName":"Cantharellus cibarius",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/9/9a/Chanterelle_Cantharellus_cibarius.jpg",
-        "description":"Overview: They are among the most popularly eaten species of wild mushrooms. They are orange, yellow or white, meaty and funnel-shaped. On the lower surface, underneath the smooth cap, most species have gill-like ridges that run almost all the way down its stipe, which tapers down seamlessly from the cap. Many species emit a fruity aroma, reminiscent of apricots, and often have a mildly peppery taste.",
-        "edibility":"Edibility: There are many ways to cook chanterelles. Most of the flavorful compounds in chanterelles are fat-soluble, making them good mushrooms to sauté in butter, oil or cream. They also contain smaller amounts of water- and alcohol-soluble flavorings, which lend the mushrooms well to recipes involving wine or other cooking alcohols. Many popular methods of cooking chanterelles include them in sautés, soufflés, cream sauces, and soups",
-        "recipes":[
-           {
-              "recipeName":"Chanterelle Mushroom and Leek Pizza",
-              "recipeName_url":"https://www.thedailymeal.com/chanterelle-mushroom-and-leek-pizza-recipe"
-           }
-        ]
-     },
-     {
-        "commonName":"Chicken Of The Woods",
-        "scientificName":"Laetiporus sulphureus",
-        "image":"http://www.ediblewildfood.com/images/chicken-of-the-woods-pictures/Laetiporus-sulphureus.jpg",
-        "description":"Overview: Chicken of the woods is parasitic and saprobic on living and dead oaks (also sometimes on the wood of other hardwoods). It causes a reddish brown cubical heart rot, with thin areas of white mycelium visible in the cracks of the wood. It is considered an annual favourite. These mushrooms do not appear until well after the fungus has attacked the tree. Originally described in 1789 by French botanist and mycologist Jean Baptiste Francois (Pierre) Bulliard, this spectacular polypore was given its current name in 1920 by the famous American mycologist William Alphonso Murrill (1869 - 1967). This fungi typically grows in large clusters in the summer and fall.",
-        "edibility":"Edibility: This mushroom is said to have a lemony, meaty taste. Some think it tastes like its chicken namesake; others describe the flavour as being more like crab or lobster-like. The margins of chicken of the woods is the desirable part to consume because the inner area tends to get a bit corky or in some cases woody and requires boiling in water for about an hour. Its look-a-like, Laetiporus cincinatus (pores are white and it grows from wood in the ground), is totally palatable. It’s important to note that this is one of those mushrooms that sometimes can cause gastric distress in certain people. If you want to avoid a possible stomach ache, only try a little bit your first time to see what it does to you. Be sure to cook before eating!",
-        "recipes":[
-           {
-              "recipeName":"Sauted Chicken of the Woods",
-              "recipeName_url":"https://www.washingtonpost.com/recipes/chicken-of-the-woods-mushrooms/12364/?utm_term=.c30e8a5bb20f"
-           }
-        ]
-     },
-     {
-        "commonName":"Comb Tooth Fungus",
-        "scientificName":"Hericium coralloides",
-        "image":"http://www.ediblewildfood.com/images/comb-tooth-fungus-pictures/hericium-corallaoides-spines.jpg",
-        "description":"Overview: Hericium coralloides was formerly known as Hericium ramosum so this name may come up in online searches. It is saprobic and possibly somewhat parasitic. This delicately beautiful fungus typically fruits on fallen logs or branches of hardwoods. Often they can be spotted in large patches that can be seen from quite some distance. This fungus is often misidentified as being Hericium erinaceus or Hericium americanum. Hericium americanum is more branched than Hericium erinaceus and grows from the wood of living trees and dead hardwoods.",
-        "edibility":"Edibility: Edible when young; be sure it is white. Mild nutty taste; cook before eating. To harvest the comb tooth, the best method is to cut the fruit body at the base, close to the wood and thus remove it in one piece; it is fragile and will break apart quite easily. Many wild picked Hericium fungi may house various tiny beetles. Thoroughly clean by shaking and hand removal if needed. If the mushroom has begun to discolour to a yellowish tone, it is old and likely will have a sour or unpleasant flavour after cooking.",
-        "recipes":[
-           {
-              "recipeName":"Roasted Lion's Mane Mushrooms with Sherried Shallots",
-              "recipeName_url":"http://www.myrecipes.com/recipe/roasted-lions-mane-mushrooms"
-           }
-        ]
-     },
-     {
-        "commonName":"Common Morel",
-        "scientificName":"Morchella esculenta",
-        "image":"http://www.ediblewildfood.com/images/common-morel-pictures/may-yellow-morels.jpg",
-        "description":"Overview: Morels belong to the Morchella genus because they are part of the \"True Morels.\" The cap colour varies from pale cream, to ochre, to yellowish brown, sometimes slightly darkening with age. The ribs along the ridges between pits are usually slightly paler than the interior of the pits. Caps are tightly attached to the stem. Cut lengthwise it will be hollow from bottom of stem to top of cap; it looks like a rubber mold. The cap is longer than the stem. Most caps have a rounded cap with denser ridges yet some caps may have a more pointed cap appearance (still with the denser ridges).",
-        "edibility":"Edibility: Always cook before consuming. They are usually enjoyed sauteed or added to favourite meals. In addition to being a sought-after food for us deer, elk and squirrels enjoy feasting on morels.",
-        "recipes":[
-           {
-              "recipeName":"Morel Mushroom Sauce",
-              "recipeName_url":"http://www.recipetips.com/recipe-cards/t--2121/morel-mushroom-sauce.asp"
-           }
-        ]
-     },
-     {
-        "commonName":"Dark Stalked Bolete",
-        "scientificName":"Leccinum atrostipitatum",
-        "image":"http://www.ediblewildfood.com/images/dark-stalked-bolete-pictures/dark-stalked-bolete.jpg",
-        "description":"Overview: This common bolete can be easily found in forests in which there are mostly deciduous trees, especially birches. Dark-stalked boletes are not a commonly sought-after edible fungi due to the lack of taste or scent. They can be found scattered or solitary.",
-        "edibility":"Edibility: Always pick healthy-looking specimens and cook before consuming. Bake in oven or fry dry – added oils or butter will make these mushy. Do not eat in large quantities or frequently. This bolete does not have a distinctive taste nor scent.",
-        "recipes":[
-           {
-              "recipeName":"Bolete Mushroom Soup",
-              "recipeName_url":"https://www.frenchgirlcuisine.com/bolete-mushrooms-soup-recipe/"
-           }
-        ]
-     },
-     {
-        "commonName":"Dryad's Saddle",
-        "scientificName":"Polyporus squamosus",
-        "image":"http://www.ediblewildfood.com/images/dryads-saddle-pictures/dryads-saddle-young.jpg",
-        "description":"Overview: The disappointed morel hunter is usually never totally blanked as there are (typically) many dryad's saddle to be found. Foragers enjoy this edible springtime fungi as it is relatively common but depending on its age they become quite leathery making it virtually impossible to use in the kitchen. Dryad's saddle are much easier to find than morels because they stick out as shelves from the lower portion of dead tree trunks. First described scientifically in 1778 by English botanist William Hudson (1730 - 1793), who named it Boletus squamosus, this species was renamed Polyporus squamosus by Swedish mycologist Elias Magnus Fries in his 1821 Systema Mycologicum.",
-        "edibility":"Edibility: Dryad's saddle is best when young and tender. So long as more mature specimens have white flesh they can be collected, dried and powdered or broken into very small pieces for use in soups or stews. The best rule to follow is to use your foraging knife and if you find that it is tough to remove it, then leave it. Younger dryad's saddle can be roasted or sauteed. They must be cooked before consumed. They have a mealy odour and taste, yet it is pleasant.",
-        "recipes":[
-           {
-              "recipeName":"Dryad Saddle Ramen",
-              "recipeName_url":"hhttp://foragerchef.com/dryad-saddle-ramen/"
-           }
-        ]
-     },
-     {
-        "commonName":"Giant Puffball",
-        "scientificName":"Calvatia gigantea",
-        "image":"http://www.ediblewildfood.com/images/giant-puffball-pictures/giant-puffball-size.jpg",
-        "description":"Overview: The giant puffball typically grows in width and height anywhere between 10 and 70 cm (about 4” to 27”) and can weigh several kilograms. It has and continues to be been a great source of food for many people worldwide. Historically, it was used by the Iroquois and Meskwaki for food. In addition to being a source of food for centuries, the giant puffball was valuable as a styptic dressing to stem the bleeding of wounds. The giant puffball can be found growing as a solitary entity, in small groups, and they have been known to form large circles.",
-        "edibility":"Edibility: Always cook before eating or dehydrate. The taste is rather faint, yet there is a pleasant scent. Some simple rules must be followed before eating a giant puffball or any puffballs. The interior tissue must be uniformly white. If infested with insects/maggots it should be trimmed in order to avoid the infested parts. The outside skin is easily peeled and should not be eaten if it is tough, leathery, or dirty. Never wash the puffball with water as it will soak up water like a sponge and become very soggy. This and other edible puffballs can be stored for up to 5 days in the refrigerator without losing significant quality.",
-        "recipes":[
-           {
-              "recipeName":"Multiple Recipes",
-              "recipeName_url":"http://www.kitchenfrau.com/puffball-recipes/"
-           }
-        ]
-     },
-     {
-        "commonName":"Late Fall Oyster",
-        "scientificName":"Sarcomyxa serotina",
-        "image":"http://www.ediblewildfood.com/images/late-fall-oyster-pictures/mukitake.jpg",
-        "description":"Overview: Late fall oysters are often referred to as being the harbinger of the end of the mushroom season in late fall or winter depending on the geographic location. They tend to fruit in groups, either in clusters or single. Late fall oysters are reminiscent of the more common oyster mushrooms, yet their greenish colour sets them apart from the common oyster. They are also known as Panellus serotinus.",
-        "edibility":"Edibility: In Japanese culture late fall oysters, or mukitake, is considered a very popular edible mushroom although it is not as common in North America. It dries well and is a great addition in a hearty stew. Its bitter flavour lends itself well to robust sauces. Although considered edible, it is quite tough and must be cooked a long time over low heat.",
-        "recipes":[
-           {
-              "recipeName":"Pan-Seared Venison With Oyster Mushrooms",
-              "recipeName_url":"https://www.sevendaysvt.com/BiteClub/archives/2015/11/24/farmers-market-kitchen-pan-seared-venison-with-oyster-mushrooms"
-           }
-        ]
-     },
-     {
-        "commonName":"Lobster Mushroom",
-        "scientificName":"Hypomyces lactifluorum",
-        "image":"http://www.ediblewildfood.com/images/lobster-mushroom-pictures/lobster-mushroom-picture.jpg",
-        "description":"Overview: The overall look is that of a capped mushroom (which contorts with age) covered with a finely bumpy, vivid orange to orange-red layer. The gills of the host mushroom can be entirely obscured by this parasite. It will still produce spores, but only those of Hypomyces Lactifluorum. These emanate from countless reddish-orange perithecial mounds (pimples) which dot the surface at maturity.",
-        "edibility":"Edibility: Russula brevipes and Lactarius piperatus are the host mushrooms in which Hypomyces lactifluorum is created rendering this edible. Be sure you have properly identified this mushroom before picking. Be sure the inside “meat” is white and always cook thoroughly before consuming.",
-        "recipes":[
-           {
-              "recipeName":"Braised Lobster Mushroom With Wild Spinach and Wheatberries",
-              "recipeName_url":"http://foragerchef.com/braised-lobster-mushroom-in-its-jus-with-wild-spinach-and-wheatberries/"
-           }
-        ]
-     },
-     {
-        "commonName":"Old Man Of The Woods",
-        "scientificName":"Strobilomyces floccopus",
-        "image":"http://www.ediblewildfood.com/images/old-man-of-the-woods-pictures/old-man-of-the-woods.jpg",
-        "description":"Overview: This is one of North America's most unusual edible wild mushroom. It is a dark, scurfy fungus that is gray-white with tufts of black hair on the cap and a fine layer of dark fur on the mushroom's stem.",
-        "edibility":"Edibility: Young fungi must be cooked. They have a mellow, earthy flavour.",
-        "recipes":[
-           {
-              "recipeName":"Cajun Braised Venison with Mushrooms, and Dark Brown Gravy",
-              "recipeName_url":"https://greatoutdoordinary.com/2017/06/25/old-man-of-the-woods-mushroom-recipe-cajun-braised-venison-with-mushrooms-and-dark-brown-gravy/"
-           }
-        ]
-     },
-     {
-        "commonName":"Oyster Mushroom",
-        "scientificName":"Pleurotus ostreatus",
-        "image":"http://www.ediblewildfood.com/images/oyster-mushroom-pictures/young-oyster-mushrooms.jpg",
-        "description":"Overview: This mushroom is close relative to the King Oyster mushroom. The Japanese call it Hiratake, which means the ‘flat mushroom’. Amazingly, the oyster mushroom is also carnivorous with its victim being the nematode, an animal that is itself parasitic.",
-        "edibility":"Edibility: Oyster mushrooms have a delicate, mild flavour with a velvety texture. Can be eaten raw or cooked although raw means that it probably won’t digest properly.",
-        "recipes":[
-           {
-              "recipeName":"Oyster mushrooms, garlic, and green onions saute",
-              "recipeName_url":"https://juliasalbum.com/oyster-mushrooms-garlic-and-green-onions-saute-paleo-gluten-free/"
-           }
-        ]
-     },
-     {
-        "commonName":"Pig's Ear",
-        "scientificName":"Gomphus clavatus",
-        "image":"http://www.ediblewildfood.com/images/pigs-ear-pictures/pigs-ear-distribution-map.jpg",
-        "description":"Overview: Pig's ear fungi has a mycorrhizal relationship with mainly coniferous trees such as fir and spruce but also with some deciduous trees such as beech trees. The hyphae of the fungus are closely associated with the roots of the tree and both species gain from this relationship. Gomphus clavatus is in the Cantharellaceae family. Extracts prepared from Gomphus clavatus fruit bodies have a high antioxidant activity, and a high concentration of phenolic and flavonoid compounds. Phenolic compounds identified from the fungus include protocatechuic acid, gallic acid, gentisic acid, vanillic acid, syringic acid, cinnamic acid, caffeic acid, ferulic acid, and tannic acid.",
-        "edibility":"Edibility: Pig's ears are truly exceptional mushrooms. They have a very firm and meaty texture, which holds up well in soups, sauces, and baked dishes. They have a great musty and earthy aroma and taste really nice. As all wild fungi, they must be cooked.",
-        "recipes":[
-           {
-              "recipeName":"Italian Marinated Mushrooms",
-              "recipeName_url":"https://honest-food.net/italian-marinated-mushrooms-recipe/"
-           }
-        ]
-     },
-     {
-        "commonName":"Porcini",
-        "scientificName":"Boletus edulis",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/b/b0/Boletus_edulis_EtgHollande_041031_091.jpg",
-        "description":"Overview: The fungus grows in deciduous and coniferous forests and tree plantations, forming symbiotic ectomycorrhizal associations with living trees by enveloping the tree's underground roots with sheaths of fungal tissue. The fungus produces spore-bearing fruit bodies above ground in summer and autumn. The fruit body has a large brown cap which on occasion can reach 35 cm (14 in) in diameter and 3 kg (6.6 lb) in weight.",
-        "edibility":"Edibility: The flavour has been described as nutty and slightly meaty, with a smooth, creamy texture, and a distinctive aroma reminiscent of sourdough. Young, small porcini are most appreciated by gourmets, as the large ones often harbour maggots (insect larvae), and become slimy, soft and less tasty with age. Fruit bodies are collected by holding the stipe near the base and twisting gently. Cutting the stipe with a knife may risk the part left behind rotting and the mycelium being destroyed. Peeling and washing are not recommended.",
-        "recipes":[
-           {
-              "recipeName":"Italian Marinated Mushrooms",
-              "recipeName_url":"https://honest-food.net/italian-marinated-mushrooms-recipe/"
-           }
-        ]
-     },
-     {
-        "commonName":"Resinous Polypore",
-        "scientificName":"Ischnoderma resinosum",
-        "image":"http://www.ediblewildfood.com/images/resinous-polypore-pictures/resinous-polypores-side-view.jpg",
-        "description":"Overview: This fungi occurs singly or in groups on fallen hardwood tree trunks and branches sometimes in overlapping clusters. It causes a white to yellow rot of the trees that separates the annual rings in the wood and often smells like anise. They can fruit until the first hard freeze.",
-        "edibility":"Edibility: This fungi is said to be edible when young due to high water content; although edible this is not necessarily palatable. They become cork-like with age and inedible.",
-        "recipes":[
-           {
-              "recipeName":"Ischnoderma Mushroom Conserve",
-              "recipeName_url":"http://foragerchef.com/resinous-polypore-ischnoderma-resinosum/"
-           }
-        ]
-     },
-     {
-        "commonName":"Sidewalk Mushroom",
-        "scientificName":"Agaricus bitorquis",
-        "image":"http://www.ediblewildfood.com/images/sidewalk-mushroom-pictures/sidewalk-mushroom-gills.jpg",
-        "description":"Overview: Agaricus bitorquis is a choice edible white mushroom of the genus Agaricus which is similar to the common button mushroom that is sold commercially. It gets its common name from the habit of where it likes to grow, usually by sidewalks, but remarkably it can grow through asphalt. Usually in groups their size, they are quite sturdy and relatively easy to identify. They do not turn yellow on bruising or cutting which rules out the poisonous Yellow Stainer (Agaricus xanthodermus) in the same family. The specific epithet bitorquis is Latin meaning \"having two collars\", and refers to the two rings resulting from detachment of the annulus from both the top and bottom of the stipe.",
-        "edibility":"Edibility: Excellent when baked/cooked. It is a substantial size, has firm texture, and and excellent flavour making this one of the best Agaricus species for consumption.",
-        "recipes":[
-           {
-              "recipeName":"",
-              "recipeName_url":""
-           }
-        ]
-     },
-     {
-        "commonName":"Tinder Hoof",
-        "scientificName":"Fomes fomentarius",
-        "image":"http://www.ediblewildfood.com/images/tinder-hoof-pictures/tinder-hoof.jpg",
-        "description":"Overview: Fomes fomentarius occurs throughout much of the northern hemisphere and in some parts of the southern hemisphere with the ability to live up to thirty years under optimum conditions. It is geotropic meaning it grows down. Tinder hoof has been recognized throughout the centuries for medicinal uses. It is known as a means to boost immunity, enhance blood circulation, regulate blood sugar and lower blood pressure.",
-        "edibility":"Edibility: It is far too hard to eat so you must break it up and make tea with the smaller pieces. You can also grind into a powder and add it to soups or coffee for added nutrients.",
-        "recipes":[
-           {
-              "recipeName":"Tinder Fungus Tea",
-              "recipeName_url":"https://www.neeach.com/fungal-tea-tinder-fungus-as-an-alternative-to-your-usual-brew/1934/"
-           }
-        ]
-     },
-     {
-        "commonName":"Turkey Tail",
-        "scientificName":"Trametes versicolor",
-        "image":"http://www.ediblewildfood.com/images/turkey-tail-pictures/turkey-tails.jpg",
-        "description":"Overview: Turkey tails are one of the most common fungi in Canada and throughout the U.S. It is found virtually anywhere there are dead hardwood logs. Its cap colours are quite variable with sharply contrasting concentric zones of colour. They typically grow in rows or overlapping shelves. In Chinese medicine it is referred to as yun zhi, and the Japanese name is kawaratake. This fungi is full of a protein-bound molecule known as PSK, or polysaccharide K. Many polysaccharides (including PSK) have been shown to boost the immune system to fight infection and many different types of cancers.",
-        "edibility":"Edibility: This fungi is not palatable due to its tough texture. When fresh it is best used as a tea. Collecting turkey tails and drying them out is recommended. Once dried they can still be used to make tea, add to other teas, used in soups and in other meals. According to www.midwestmycology.org: \"There are, however, no poisonous species of Trametes anywhere in the world, and most have medicinal properties.",
-        "recipes":[
-           {
-              "recipeName":"Turkey Tail Tea",
-              "recipeName_url":"https://foragedfoodie.blogspot.com/2016/11/preserving-turkey-tail-mushrooms.html"
-           }
-        ]
-     },
-     {
-        "commonName":"Velvet Shank",
-        "scientificName":"Flammulina velutipes",
-        "image":"http://www.ediblewildfood.com/images/velvet-shank-pictures/velvet-shank-gills.jpg",
-        "description":"Overview: Velvet Shank are often seen fruiting throughout light snowfall and is even known to continue growth after it has thawed from freezing. These mushrooms are the wild alternative to the cultivated form, enoki. Enoki mushrooms are found in grocery stores and are also called enokitake. Enoki is white, long-stemmed, and tiny-capped (image appears in the images). Extracts from this mushroom show exceptionally high anti-cancer activity, and an epidemiology survey of Flammulina velutipes farmers in Japan found that the mushroom farmers had lower rates of cancer deaths than people who were not involved in mushroom farming.",
-        "edibility":"Edibility: Stems are generally too tough for eating but the caps can be used in soups, stews, as well as in casseroles. They must always be cooked. It is believed to remove the skin of the cap before cooking as it is supposedly not easily digested. These mushrooms are considered tasty, with a sweet, mealy flavour. Enoki stems and caps are edible and have a pleasant taste.",
-        "recipes":[
-           {
-              "recipeName":"Sukiyaki",
-              "recipeName_url":"https://www.akafuji.co.jp/andjapanrice/english/recipe/04.html"
-           }
-        ]
-     }
-  ],
    "plants":[
       {
          "commonName":"Alfalfa",
@@ -316,7 +28,7 @@
       {
          "commonName":"Bearberry",
          "scientificName":"Arctostaphylos uva-ursi",
-         "image":"http://www.ediblewildfood.com/images/bearberry-pictures/kinnikinnick-flowers.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Baerentraube_ML0002.jpg/1024px-Baerentraube_ML0002.jpg",
          "description":"Bearberry is known as Kinnikinnick which is pronounced KINNY-kin-ICK, or Kinn-ICK-innick, and is belived to come from the Alonquin meaning “smoking mixture.” Bearberry comes from its genus Arctostaphylos, from the Greek word for bear – Arktos and staphylos – a bunch of grapes, which its berries resemble. The species name of uva-ursi is apparently from the Latin uva (grape) and ursus (bear). Bearberries look like lingonberries (Vaccinium vitis-idaea), but they are not related. Lingonberry’s stems are erect: bearberry is limply creeping and only the tips of the stems are slightly ascending. Bearberry’s leaves are narrower and gradually tapering towards the base.",
          "edibleParts":"Edible parts: The bright red berries are edible and young leaves are often used as tea.",
          "recipes":[
@@ -328,7 +40,7 @@
       {
          "commonName":"Bitter Dock",
          "scientificName":"Rumex obtusifolius",
-         "image":"http://www.ediblewildfood.com/images/bitter-dock-pictures/Rumex_obtusifolius_drawing.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/14/Rumex-obtusifolius-foliage.JPG",
          "description":"Bitter dock is a perennial herbaceous plant that is found in many countries. It is a member of the Polygonaceae (buckwheat or dock) family. This plant has a long taproot that enables it survive long drought periods and out competes other vegetation. Although bitter dock seedlings find it difficult to flourish under competitive conditions, fully grown plants are able to endure being trodden over and mowed. Shortly after this plant has been trampled or mowed, it sends up new shoots and frequent rejuvenation may even result. During winter months, bitter dock coils up having undersized shady leaves and a solid taproot. Once the cold temperatures have ended, bitter dock quickly produces new leaves.",
          "edibleParts":"Edible parts: Young leaves are edible fresh or cooked. These leaves do have a bitter taste, especially the older they become. Some people will cook leaves in at least one change of water in order to reduce the bitterness. They can also be dried for later use. Young stems can be consumed as well but are preferred cooked by those who enjoy them. Seeds can be used raw or cooked. Like yellow dock, the seed can also be ground into a powder and used in baking although it is more time consuming to harvest.",
          "recipes":[
@@ -341,7 +53,7 @@
       {
          "commonName":"Blue Vervain",
          "scientificName":"Verbena hastata",
-         "image":"http://www.ediblewildfood.com/images/blue-vervain-pictures/blue-vervain.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/79/Verbena_hastata.JPG",
          "description":"Warning: blue vervain can interfere with blood pressure medication and hormone therapy. Do not eat any part of this plant if this applies to you! Also, large doses can induce vomiting and diarrhea.\nBlue vervain is a flowering plant in the Verbenaceae (vervain) family that not only grows wild, but it is a favourite choice in landscaped gardens. This is a perennial wildflower that is unique because it has flowers on showy candelabra-like spikes. Bees are among the important pollinators for this plant. In ancient times the plant was thought to be a cure-all among medicinal plants and the genus name is Latin for sacred plant.",
          "edibleParts":"Edible parts: Blue vervain had many uses in First Nation’s culture as food and medicine. The seed are edible when roasted and is ground into a powder (although they are somewhat bitter to taste). Leaves can be made into a tea or tossed into salads, soups, etc. The root can be collected all year round. The flowers can be tossed on top of a salad and eaten. (Dried, powdered flowers were once used as a snuff for nosebleeds.)\nExternally, this plant can be used as a poultice to help heal wounds and hemorrhoids. Internally the leaves and roots are a valuable alternative medicine used by medical herbalists for their patients as an antidiarrheal, analgesic, anthelmintic, antiperiodic, astringen",
          "recipes":[
@@ -353,7 +65,7 @@
       {
          "commonName":"Bluebead",
          "scientificName":"Clintonia borealis",
-         "image":"http://www.ediblewildfood.com/images/bluebead-pictures/clintonia-borealis.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/4/43/Clintonia_borealis_140615.jpg",
          "description":"Blue bead lily is a perennial plant that is a member of the Liliaceae family. This boreal plant also known by many names such as: Blue Bead Lily, Clintonia, Clinton’s Lily, Corn Lily, Snakeberry, Dogberry, and Cow Tongue. Bluebead was named after DeWitt Clinton (1769-1828), naturalist and once New York governor. This plant reproduces by seed and vegetatively by rhizomes division hence the reason there are many of these plants in some areas. Bluebead is native to boreal forests of eastern North America. One colony of bluebeads often covers several hundred square meters; yet few plants can actually establish new colonies",
          "edibleParts":"Edible parts: Young leaves are edible raw or cooked. This is best harvested in spring before the leaves unfurl. Older leaves can be used as a potherb. NEVER consume any other part of this plant!",
          "recipes":[
@@ -365,7 +77,7 @@
       {
          "commonName":"Borage",
          "scientificName":"Borago officinalis",
-         "image":"http://www.ediblewildfood.com/images/borage-pictures/borage.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/75/Borage_starflower_Rohtopurasruoho_01.jpg",
          "description":"Borage is a hardy annual edible that is known for its beauty. It’s a domestic herbal remedy that has been used since ancient times. Some people use borage as a substitute for valerian as it dispels melancholy and induces euphoria. Borage has a beneficial effect on the heart, adrenal glands, kidneys and the entire digestive system. It has been used as a cure for jaundice. This beautiful plant works well as a companion plant as it deters tomato hornworm and Japanese beetles; it also stimulates the growth of strawberries.",
          "edibleParts":"Edible parts: Leaves have been traditionally used to make a tea to rid the body of a fever. Although they can be cooked eating them raw is not recommended due to the ‘prickles’ it is best not to. Flowers are very tasty and can be tossed into salads or they can be crystallized to make a “candy.” The seeds are a rich source of gamma-linolenic acid; this oil helps to regulate the hormonal systems and lowers blood pressure. An edible blue dye can be obtained from the flowers; some people use it to colour vinegar however it turns pink on contact with acids.",
          "recipes":[
@@ -390,7 +102,7 @@
       {
          "commonName":"Broadleaf Plantain",
          "scientificName":"Plantago major",
-         "image":"http://www.ediblewildfood.com/images/broadleaf-plantain-pictures/broadleaf-plantain.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/3/33/Grote_weegbree_bloeiwijze_Plantago_major_subsp._major.jpg",
          "description":"Broadleaf Plantain is a perennial broadleaf plant that grows in many locations from spring to autumn. Not only is this a vital wild edible plant for overall good health, this wild weed can be used to treat chronic diarrhea as well as digestive tract disorders. Broadleaf plantain is packed with nutrients and is safe to ingest. If a person chomps on some fresh leaves, these can be applied to the skin to treat minor burns, insect bites or open wounds.",
          "edibleParts":"Edible parts: The entire plant. Young leaves can be eaten raw or cooked. They are somewhat bitter and tedious to prepare because it’s generally preferable (though not required) to remove the fibrous strands before use. Many people blanch the leaves in boiling water before using them in salads in order to make them more tender. Once blanched, plantain can be frozen then used later in a sauté, soup or stew. Seeds can be eaten raw or cooked and can be tedious to harvest. The seed can be ground into a meal and mixed with flour. Dried leaves make a healthy herbal tea.",
          "recipes":[
@@ -403,7 +115,7 @@
       {
          "commonName":"Bugleweed",
          "scientificName":"Ajuga reptans",
-         "image":"http://www.ediblewildfood.com/images/bugleweed-pictures/bugleweed-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/6/65/Ajuga_reptans_20070429_132711_1.jpg",
          "description":"Bugleweed is in the Lamiaceae (mint) family and is native to north-western Africa (Algeria and Tunisia), Europe and western Asia (Iran, northern Turkey, Azerbaijan, Georgia and southern Russia). This is an evergreen perennial that grows at a slow rate. It has a long history of use to help with wounds, and is used in ointments and medicated oils.",
          "edibleParts":"Edible parts: Young shoots can be eaten in salads or sautéed. Young leaves are also edible; use in salads, teas, casseroles, etc.",
          "recipes":[
@@ -415,7 +127,7 @@
       {
          "commonName":"Bull Thistle",
          "scientificName":"Cirsium vulgare",
-         "image":"http://www.ediblewildfood.com/images/bull-thistle-pictures/bull-thistle.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/3/33/Mooie_bloeiwijze_van_een_Speerdistel_%28Cirsium_vulgare%29_03.jpg",
          "description":"Bull thistles have earned the title of noxious or invasive in many areas. They are distinguished from all other thistles by the covering of short, sharp prickles on the upper, dark green surface of the leaf blade. It is these prickles that make the surface very harsh to the touch. Like many other plants, the bull thistle grows a rosette in its first year and blooms in its second year of life.",
          "edibleParts":"Edible parts: Bull thistle root can be eaten and is best used when mixed with other vegetables. Young flower stems can be cooked and young leaves can be eaten in a salad or tossed into a sauté. The taste is somewhat bland but the prickles MUST BE removed from the leaves before the leaves can be eaten! The flower buds can be cooked and used like globe artichokes, but they are smaller. Bull thistle seeds can be roasted. (Bull thistle root is rich in inulin.)",
          "recipes":[
@@ -427,7 +139,7 @@
       {
          "commonName":"Burdock",
          "scientificName":"Arctium lappa",
-         "image":"http://www.ediblewildfood.com/images/burdock-pictures/burdock.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/c/ca/ArctiumLappa1.jpg",
          "description":"Recognized mainly for its burrs, burdock is an interesting biennial plant because it consists primarily of carbohydrates, volatile oils, plant sterols, tannins, and fatty oils. Researchers aren't sure which active ingredients in burdock root are responsible for its healing properties, but this plant may have anti-inflammatory and antibacterial effects. In fact, recent studies show that burdock contains phenolic acids, quercetin and luteolin - all are powerful antioxidants. Burdock, in its first year has no stem and grows only as a basal rosette of leaves that stays close to the ground the first year and the beginning of the second.",
          "edibleParts":"Edible parts: First-year roots and second-year stems can be cooked by boiling for about 20 minutes, then season to taste. Before cooking however, the stems should be peeled, and roots scrubbed in order to remove the bitter rind. Immature flower stalks may also be harvested in late spring, before flowers appear; their taste resembles that of artichoke. The Japanese have been known to eat the leaves when a plant is young and leaves are soft.",
          "recipes":[
@@ -440,7 +152,7 @@
       {
          "commonName":"Catnip",
          "scientificName":"Nepata cataria",
-         "image":"http://www.ediblewildfood.com/images/catnip-pictures/catnip.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Catnip_flowers.jpg",
          "description":"Catnip is a perennial herb that is native to Europe and Asia but also grows throughout North America and Africa. Both the Latin name and scientific names are derived from the inability of cats to resist the aroma of this plant. Cats get frisky when they eat this plant yet humans find it relaxing. It has been used for centuries in herbal remedies and as a relaxing tea.",
          "edibleParts":"Edible parts: Young leaves can be eaten raw. Their mint-like flavour adds an aromatic flavouring in salads. Older leaves can be used as flavouring in cooked foods. Catnip leaves and flowers can be used fresh or dried to make a calming herbal tea. If making tea, it should be infused in a closed container in order to preserve the essential oils. Seeds and roots can also be used.",
          "recipes":[
@@ -452,7 +164,7 @@
       {
          "commonName":"Cattail",
          "scientificName":"Typha latifolia",
-         "image":"http://www.ediblewildfood.com/images/cattail-pictures/new-cattail-growth.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/16/Typha_latifolia_02_bgiu.jpg",
          "description":"The cattail is one of the most important and most common wild foods that also boast a variety of uses at different times of the year. Cattails (aka bulrushes) can be used to make mats, baskets, and the cigar-shaped head can even be used as packing material. Dipping the head in oil or fat, they can be used as torches. Aboriginals used the roots to make flour (high in protein and carbohydrates) and the fluffy wool of the head was used as diapers because of its softness and absorbency. The fluffy wool is similar to down and can be used as insulation in clothing, pillows, mattresses, quilts, and life jackets. These “cigar-heads” are also excellent fire started. The tight heads are often dry inside even after a heavy rain, making this essential survival tinder. Inside the stalks of fresh shoots is tasty food that can be eaten as is, sautéed or tossed into a stir fry.",
          "edibleParts":"Edible parts: The lower parts of the leaves can be used in a salad; the young stems can be eaten raw or boiled; the young flowers (cattails) can be roasted. Yellow pollen (appears mid-summer) of the cattail can be added to pancakes for added nutrients. Shake the pollen into a paper bag and use it as a thickener in soups and stews or mix it with flour for some great tasting bread. The root can be dried and pounded to make nutritious flour. Young shoots can be prepared like asparagus but requires longer cooking time to make them tender. Added to soup towards the end of cooking, they retain a refreshing crunchiness. They're superb in stir-fry dishes and excellent in virtually any context.",
          "recipes":[
@@ -477,7 +189,7 @@
       {
          "commonName":"Chickweed",
          "scientificName":"Stellaria media",
-         "image":"http://www.ediblewildfood.com/images/chickweed-pictures/chickweed.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/05/Kaldari_Stellaria_media_01.jpg",
          "description":"Chickweed is an annual wild edible that grows in many locations and as hardy as it is, chickweed is quite delicate. This is an easy-to-grow plant that’s healthy to eat and it produces flowers throughout the growing season even in hot, dry conditions. Chickweed is multi-functional because its presence decreases insect damage to other plants. This plant has a lot of health benefits and is full of vitamins, minerals and other essential nutrients.",
          "edibleParts":"Edible parts: Chickweed leaves are used by adding them raw to salads and sandwiches. They can be tossed into soups and stews as well. When adding to a cooked dish, the stems and flowers can be used also.",
          "recipes":[
@@ -490,7 +202,7 @@
       {
          "commonName":"Chicory",
          "scientificName":"Cichorium intybus",
-         "image":"http://www.ediblewildfood.com/images/chicory-pictures/chicory.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e0/Cichorium_endiva.jpg",
          "description":"Chicory is a perennial herbaceous plant with a blue or lavender flower. Its leaves are tastiest in the spring and autumn as the summer heat tends to make them taste a little bitter – but they are still edible. Toss them in a salad but before doing so, blanch them. They can be mixed with other greens to minimize their strong flavor. The mature green leaves can be used as a cooked vegetable.",
          "edibleParts":"Edible parts: Leaves and root. Although the flower is edible, it is very bitter.",
          "recipes":[
@@ -502,7 +214,7 @@
       {
          "commonName":"Cleavers",
          "scientificName":"Galium aparine",
-         "image":"http://www.ediblewildfood.com/images/cleavers-pictures/cleavers.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/d/de/Flowers_February_2008-4.jpg",
          "description":"Cleavers are in the Rubiaceae family which consists of flowering plants in the coffee, madder, or bedstraw family. In particular cleavers are in the bedstraw family. There are upwards of 3,000 species in the Rubiaceae family. Other names that cleavers are known as include sticky willy, stickybud, stickyweed, kisses, and clivers. Some people may experience a rash when they touch this plant; if so – DO NOT INGEST!",
          "edibleParts":"Edible parts: Cleavers have historically been known as a medicinal plant although it is food too. The leaves and stems can be used as leaf vegetable although it is very sticky so it will not blend well in a salad. It can be used on bread in sandwiches and sautéed. Fruits of the cleavers can be collected and dried, then roasted for use as a coffee substitute. Leaves and stems can be dried and used for tea.",
          "recipes":[
@@ -514,7 +226,7 @@
       {
          "commonName":"Cloudberry",
          "scientificName":"Rubus chamaemorus",
-         "image":"http://www.ediblewildfood.com/images/cloudberry-pictures/unripened-cloudberries.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c1/Hjortron.jpg",
          "description":"Cloudberries are in the rose family and are a low perennial forb. They are typically known as bakeapples in Newfoundland and Labrador. This berry grows almost exclusively in circumpolar regions and is prized in cultures and cuisines in Scandinavia, Russia, Canada and throughout Alaska. Cloudberry’s berry production varies a lot over the years. Frost during the flowering time can ruin the whole crop and cool weather immobilizes pollinators. Heavy rains and storms can rip the delicate petals in a way that pollinators cannot find the flowers. Bad weather during the growing season shows up the next summer too in the shape of a poor inflorescence.",
          "edibleParts":"Edible parts: The juicy fruit of the cloudberry is edible. Cloudberry is an ingredient in many desserts, jams, confections and alcoholic beverages. Cloudberry is dominantly used in traditional Scandinavian cuisine, although it also appears in Inuit cuisine. Historical documents reveal that cloudberry was utilized by Norwegian sailors and North American Eskimos to prevent and treat scurvy; its roots and leaves were used for medicinal purposes. (Cloudberries have a high vitamin C content.)",
          "recipes":[
@@ -526,7 +238,7 @@
       {
          "commonName":"Coltsfoot",
          "scientificName":"Tussilago farfara",
-         "image":"http://www.ediblewildfood.com/images/coltsfoot-pictures/coltsfoot-drawing.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Tussilago_farfara_bgiu.jpg",
          "description":"Coltsfoot is a perennial plant that looks similar to a dandelion when it blooms in spring. This wild edible plant is unusual in that the flowers bloom and die before the appearance of any leaves, which earned Coltsfoot the name of \"son before the father\" in earlier times. Before the introduction of matches, the felt-like covering of the plant, wrapped in a rag and dipped in a solution of saltpetre, was considered to be excellent tinder after being dried in the sun. This plant contains mucilage, bitter glycosides, and tannins; it is these that are thought to give the herb anti-inflammatory and antitussive (cough prevention and treatment) properties. Coltsfoot root contains pyrrolizidine alkaloids, potentially toxic constituents and it suspected that there may be small quantities in the leaves.",
          "edibleParts":"Edible parts: Coltsfoot flowers can be eaten. They can be tossed into salads to add a wonderful aromatic flavour; or fill a jar with the flowers and add honey to make a remedy to help calm a cough or to sweeten a bitter herbal tea. Dried flowers can be dried and chopped up so that they can be added to pancakes, fritters, etc. Young leaves can be added to soups or stews and small quantities of fresh young leaves can be used in salads. The leaves have a bitter taste unless they are washed after being boiled. An aromatic tea is made from the fresh or dried leaves and flowers. The dried and burnt leaves are used as a salt substitute.",
          "recipes":[
@@ -539,7 +251,7 @@
       {
          "commonName":"Common Sow Thistle",
          "scientificName":"Sonchus oleraceus",
-         "image":"http://www.ediblewildfood.com/images/common-sow-thistle-pictures/common-sow-thistle-top.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f9/Sonchus_February_2008-1.jpg",
          "description":"Common sow thistle is in the Compositae (Asteraceae) family. This is a nutritious plant that contains several minerals (calcium, magnesium, iron, phosphorus, sodium, potassium and zinc) and vitamins ( A, B1, B2, B3, B6, & C). The leaves are also great to use as an antioxidant.",
          "edibleParts":"Edible parts: Earlier in the season this plant tastes nice. Leaves and flowers can be added to salads, cooked like spinach or used in soups, casseroles, etc.. The leaves contain vitamin C, protein, fat, and carbohydrates. Cook stems like asparagus. They taste better if the outer skin is removed. Young roots can be cooked as well.",
          "recipes":[
@@ -551,7 +263,7 @@
       {
          "commonName":"Common Yarrow",
          "scientificName":"Achillea millefolium",
-         "image":"http://www.ediblewildfood.com/images/common-yarrow-pictures/yarrow-flowers-closeup.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Yarrow_%28Achillea_millefolium%29.jpg",
          "description":"Achillea millefolium is known as common yarrow. It is a rhizomatous, spreading, upright to mat-forming perennial that is considered by many to be an aggressive weed. Common yarrow from Europe and Asia was originally introduced to the U.S. during the colonial times, and has since naturalized throughout the U. S. and Canada. Achillea is in reference to Achilles, hero of the Trojan Wars in Greek mythology, who used the plant medicinally to stop bleeding and to heal the wounds of his soldiers.",
          "edibleParts":"Edible parts: Leaves can be consumed raw or cooked. They have a somewhat bitter flavor yet they make a great addition to mixed salads. They are best used when young. Common yarrow leaves are also used as a hop-substitute for flavouring and as a preservative for beer. Although in general yarrow is a very nutritious and beneficial plant to add to the diet, it is recommended that this not be consumes in large quantities. Tea is made from the flowers and leaves.",
          "recipes":[
@@ -577,7 +289,7 @@
       {
          "commonName":"Crimson Clover\nTrifolium incarnatum",
          "scientificName":"Trifolium incarnatum",
-         "image":"http://www.ediblewildfood.com/images/crimson-clover-pictures/crimson-plants.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/13/2015-05-05_Trifolium_incarnatum%28Strawberry_candle%29_%E3%83%99%E3%83%8B%E3%83%90%E3%83%8A%E3%83%84%E3%83%A1%E3%82%AF%E3%82%B5_DSCF0668.jpg",
          "description":"Crimson clover is a species of clover in the family Fabaceae, native to southeastern Europe and southwestern Turkey. It spread to Asia and then to the U.S. by 1819. It has a distinctive, brilliant, crimson cone-shaped head of florets.\nA special thank you to Rita B. Chancy of Tennessee for donating all of these images!",
          "edibleParts":"Edible parts: The seeds and flowers are edible. Seeds can be sprouted and used in salads or sandwiches. They can also be dried and ground into flour. Flower heads can be used fresh or dried as a tea.",
          "recipes":[
@@ -589,7 +301,7 @@
       {
          "commonName":"Crowberry",
          "scientificName":"Empetrum nigrum",
-         "image":"http://www.ediblewildfood.com/images/crowberry-pictures/Empetrum-nigrum.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/5/5a/Empetrum_nigrum_by_Maseltov_2.jpg",
          "description":"Crowberry’s generic name Empetrum, literally means \"growing on rocks\". This evergreen shrub sheds its leaves only once every two to four years and it can grow in very poor soil conditions.People cultivate crowberry as a source of food, as a ground cover and for ornamental purposes. Crowberry is perennial shrub that belongs in the heather family that can survive more than 20 years in the wild.",
          "edibleParts":"Edible parts: The berries are the only edible part although the twigs can be used as tea. They ripen in autumn and remain on the bush throughout the winter. Crowberries can be eaten raw but taste better after they have been exposed to a heavy frost. The taste somewhat acrid and are generally used for making pies, wine, jams, jellies, etc. They are an excellent source of fibre and antioxidants - even better than blueberries. They are high in vitamins C and K. Crowberry is used for smoking fish in some northern cultures.",
          "recipes":[
@@ -601,7 +313,7 @@
       {
          "commonName":"Daisy Fleabane",
          "scientificName":"Erigeron annuus",
-         "image":"http://www.ediblewildfood.com/images/daisy-fleabane-pictures/daisy-fleabane-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/b/b1/Erigeron_annuus_flowers_by_the_Mogami_River_in_Yonezawa%2C_Yamagata_%E6%9C%80%E4%B8%8A%E5%B7%9D%E8%BE%BA%E3%81%AE%E3%83%92%E3%83%A1%E3%82%B8%E3%83%A7%E3%82%AA%E3%83%B3_%285795366075%29.jpg",
          "description":"Erigeron annuus, whose scientific name accurately indicates it is an annual plant. Erigeron comes from Greek meaning \"early\" and \"old man,\" which allude to the plant's tendency to blossom in late spring and to form fuzzy white seed heads while still producing new flowers. Daisy fleabane, like other fleabane wildflowers, derives its common name from the superstition that dried clusters of these plants could be used to rid a dwelling of fleas. Although it cannot do that, it is however used as a diuretic and medicine for digestive ailments.",
          "edibleParts":"Edible parts: Only the leaves are edible. They are hairy so they have a somewhat ‘furry’ texture making eating them raw not exactly too pleasing. They can be used wherever you cook with greens. Daisy fleabane leaf extracts contain caffeic acid which is an active compound that has antioxidative and neuroprotective effects on neuronal cells.",
          "recipes":[
@@ -626,7 +338,7 @@
       {
          "commonName":"Downy Yellow Violet",
          "scientificName":"Viola pubescens",
-         "image":"http://www.ediblewildfood.com/images/downy-yellow-violet-pictures/Downy-Yellow-Violet.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/3/3a/Flickr_-_Nicholas_T_-_Dainty.jpg",
          "description":"The Downy Yellow Violet is divisible into two varieties which may be distinguished as in the following key.\n1) Plants moderately to thickly hairy, bearing 1-2 flowering stems and 0-2 basal leaves (Viola pubescens var. pubescens)\n2) Plants hairless or almost so, bearing 3 or more flowering stems and 1-3 or more basal leaves (V. pubescens var. scabriuscula)\nThe nectar and pollen of the flowers attract primarily bees and less common insect visitors include small butterflies and skippers.",
          "edibleParts":"Edible parts: Flowers and leaves are edible. The root has been used in the past for medicinal purposes.",
          "recipes":[
@@ -650,7 +362,7 @@
       {
          "commonName":"Elderberry",
          "scientificName":"Sambucus canadensis",
-         "image":"http://www.ediblewildfood.com/images/elderberry-pictures/elderberry-bush.JPG",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e4/Sambucus_nigra_subsp_canadensis_-_Indiana.jpg",
          "description":"Sometimes propagated as an ornamental shrub, the elderberry bush is a member of the honeysuckle family. It attracts birds and butterflies and can be pruned back every few years to keep it looking good in a landscaped garden. This deciduous shrub produces a fruit that, in recent years has become very popular. The white flowers transform into dark purple fruit late summer. Although the flowers and berries are edible all other parts of this bush are poisonous containing toxic calcium oxalate crystals. Sambucus canadensis is a very close cousin of Sambucus nigra (European Elderberry).",
          "edibleParts":"Edible parts: The berries and flowers are edible. Flowers can be tossed into a salad. Eating the berries raw is not favoured by many. Elderberries tend to end up as pies, in pancakes, jams, jellies, and in wine making.",
          "recipes":[
@@ -662,7 +374,7 @@
       {
          "commonName":"Evening Primrose",
          "scientificName":"Oenothera biennis",
-         "image":"http://www.ediblewildfood.com/images/evening-primrose-pictures/winter-evening-primrose.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/8/80/Ola_kwiatek_%C5%BC%C3%B3%C5%82ty_Niemir%C3%B3w_nad_Bugiem_pl.jpg",
          "description":"The evening primrose is a biennial plant that is perhaps best known for its seeds. Oil is extracted from the seeds and used for a variety of health problems. Native Americans used this plant not just as food but medicine too. It wasn’t until the 1930’s that researchers discovered the oil was powerful. Today it is used to help restore brittle hair and nails to a healthy condition as well as for many health ailments.",
          "edibleParts":"Edible parts: The roots of the first year are fleshy, sweet and somewhat succulent. The roots can grow quite thick and long and resemble parsnips. Young shoots can be eaten raw or cooked (but do not eat a lot of these – sparingly!) The flowers taste great, a little sweet and can be used in salads. Young seedpods can be harvested and steamed or sautéed. It is a very good source of gamma-linolenic acid, an essential fatty acid that is not found in many plant sources.",
          "recipes":[
@@ -686,7 +398,7 @@
       {
          "commonName":"Fern Leaf Yarrow",
          "scientificName":"Achillea filipendulina",
-         "image":"http://www.ediblewildfood.com/images/fern-leaf-yarrow-pictures/yarrow.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/d/d3/Achillea_filipendula_cap%C3%ADtulos.jpg",
          "description":"Yarrow has a good reputation as an anti-inflammatory and antiseptic and is widely used in herbal medicine. This perennial wild edible tastes bitter but after all, bitter is generally better for your health. Yarrow contains many vitamins and minerals, and is used in the treatment of a wide range of disorders. Yarrow is particularly valuable for stopping the flow of blood, treating colds, fevers, treating wounds, kidney diseases, menstrual pain, and much more. It also contains the anti-inflammatory agent azulene, though the content of this varies even between plants in the same habitat. Legend has it that Yarrow was named after Achilles, the Greek mythical figure who used it to stop the bleeding wounds of his soldiers. Ryan Drum, BSc., PhD., has authored over thirty scientific papers and his research discovered that this wild edible was discovered in the Shanidar Cave in Iraq dating back almost 100,000 years.",
          "edibleParts":"Edible parts: Aerial. Although the leaves are bitter, they can be eaten raw or cooked; young leaves mixed in with a salad are recommended. Yarrow leaves are also used as a hop-substitute for flavouring and as a preservative for beer. Although in general yarrow is a very nutritious and beneficial plant to add to the diet, it is recommended not to eat a lot of it on a regular basis. An aromatic tea is made from the flowers and leaves.",
          "recipes":[
@@ -699,7 +411,7 @@
       {
          "commonName":"Field Pennycress",
          "scientificName":"Thlaspi arvense",
-         "image":"http://www.ediblewildfood.com/images/field-pennycress-pictures/field-pennycress.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/6/61/Thlaspi_arvense.jpeg",
          "description":"This is one of the most easily recognized members of the Brassicaceae (mustard) family because of its large and plentiful fruits which have the characteristic cabbage-like flavour when chewed. Like most of the other introduced members of this family, it grows in abundance. Researchers have begun studying the genetics of pennycress in order to improve its potential use as a biofuel crop.",
          "edibleParts":"Edible parts: Young leaves can be eaten raw or cooked. They should be harvested before the plant comes into flower or they will be very bitter. Even the young leaves have a somewhat bitter flavour and aroma, and are not to everyone's taste. They can be added in small quantities to salads and other foods such as in lasagna. They can also be cooked in soups or used as a potherb. For a leaf, it is very rich in protein. The seed is ground into a powder and used as a mustard substitute. The seed can be sprouted and added to salads.",
          "recipes":[
@@ -711,7 +423,7 @@
       {
          "commonName":"Fireweed",
          "scientificName":"Chamerion angustifolium",
-         "image":"http://www.ediblewildfood.com/images/fireweed-pictures/fireweed.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/1d/Maitohorsma_%28Epilobium_angustifolium%29.JPG",
          "description":"Fireweed is a native plant that’s found throughout the temperate northern hemisphere including some areas in the boreal forests. It earned its name because this plant is the first colonizer in the soil after forest fires. In Great Britain it also earned the name bombweed due to the rapid colonization of land that was bombed during WWII. Fireweed is an important plant for honey producers as it attracts the bees and hummingbirds as well. This beautiful plant is a member of the Evening Primrose family (Onagraceae).",
          "edibleParts":"Edible parts: Young leaves and shoots can be consumed. They can be used in salads, as a vegetable, and young shoots can be used as an asparagus substitute. Older shoots become too tough to ingest.\nThe root can be roasted after scraping off the outside, but often tastes bitter. To mitigate this, the root is collected before the plant flowers and the brown thread in the middle removed. Flower stalks can be consumed raw or cooked and are used when the flowers are in bud. The pith of young or older stems are consumable raw or cooked.",
          "recipes":[
@@ -724,7 +436,7 @@
       {
          "commonName":"Forget Me Not",
          "scientificName":"Myosotis arvensis",
-         "image":"http://www.ediblewildfood.com/images/forget-me-not-pictures/forget-me-not-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Myosotis_arvensis.jpeg",
          "description":"Forget-me-not is usually an annual or biennial herb with its success being based on its flexibility. The seeds can lay dormant in the soil until they deem it is a suitable time to sprout for up to thirty years and germinate when conditions become favourable. Forget-me-not’s flowers are pollinated by small flies and hymenopterans, and if needs be the plant can also self-pollinate to ensure its seed production. It is in the Boraginaceae (borage) family.",
          "edibleParts":"Edible parts: The flowers are the edible part to this plant. Eat them as a trail snack or use them to decorate cupcakes, toss them in a salad or as a garnish on your dinner plate.",
          "recipes":[
@@ -736,7 +448,7 @@
       {
          "commonName":"Garlic Mustard",
          "scientificName":"Alliaria petiolata",
-         "image":"http://www.ediblewildfood.com/images/garlic-mustard-pictures/garlic-mustard.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/9/90/Garlic_Mustard_close_800.jpg",
          "description":"Garlic Mustard is a biennial herb that has been labeled an invasive weed in many areas. Originally from Europe, this nutritious plant is found in many locations across North America. The flower of this wild edible only appears from May to June. Garlic Mustard is good for your weight, heart, lowers cholesterol, may help prevent cancer, as well as many other health benefits.",
          "edibleParts":"Edible parts: Flowers, leaves, roots and seeds. Leaves in any season can be eaten but once the weather gets hot, the leaves will taste bitter. Flowers can be chopped and tossed into salads. The roots can be collected in early spring and again in late fall, when no flower stalks are present. Garlic mustard roots taste very spicy somewhat like horseradish. In the fall the seed can be collected and eaten.",
          "recipes":[
@@ -749,7 +461,7 @@
       {
          "commonName":"Goldenrod",
          "scientificName":"Solidago",
-         "image":"http://www.ediblewildfood.com/images/goldenrod-pictures/goldenrod.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/6/62/Solidago_virgaurea_var._leiocarpa_02-2.jpg",
          "description":"Goldenrod is a perennial plant that is well-known for its healing properties. This wild edible is a plant that reproduces through its roots, bulbs, stems and by its seed. Goldenrod does not cause seasonal allergies as many tend to believe. No one is, no one can be, allergic to Goldenrod pollen. Why? For starters, it has virtually none and it is pollinated by insects. Only wind-pollinated plants such as Ragweed (which blooms at the same time as Goldenrod) can cause allergic reactions.Currently, there are actually 140 varieties of Goldenrod; therefore it has a unique adeptness in crossbreeding with other plants. All varieties of Goldenrod all are equally nutritious and boast many health benefits. Goldenrod can be used fresh or as a dried herb to make tea (although it is bitter), or as a fluid extract, tincture, or in capsules. Nebraska declared a type of Goldenrod (Soldiago gigantea) the state flower in 1895.",
          "edibleParts":"Edible parts: All aerial parts of the plant can be used. The flowers are edible and make attractive garnishes on salads. Flowers and leaves (fresh or dried) are used to make tea. Leaves can be cooked like spinach or added to soups, stews or casseroles. Leaves can be blanched and frozen for later use in soups, stews, or stir fry throughout the winter or spring.",
          "recipes":[
@@ -762,7 +474,7 @@
       {
          "commonName":"Harebell",
          "scientificName":"Campanula rapunculoides",
-         "image":"http://www.ediblewildfood.com/images/harebell-pictures/harebells.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a8/Creeping_Bellflower%2C_Ottawa.jpg",
          "description":"The harebell is a delicate perennial that has a graceful appearance. They have slender stems, sometimes in clusters and some are so weak the plant bends over. Interestingly an old name for this plant in Scotland was Witched Thimble due to old folklore. The genus name, from the Latin campana (bell), means little bell.",
          "edibleParts":"Edible parts: The leaves of this plant are edible and are best used in a salad. Add them to a smoothie, into your homemade dips or anywhere else to add some of its vitamin C.",
          "recipes":[
@@ -774,7 +486,7 @@
       {
          "commonName":"Henbit",
          "scientificName":"Lamium amplexicaule",
-         "image":"http://www.ediblewildfood.com/images/henbit-pictures/henbit_plant.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/8/82/Lamium_amplexicaule_Kaldari_01.jpg",
          "description":"The common name, Henbit, comes from the observation that chickens like it. Humming birds also enjoy this wild edible for the nectar. Henbit provides valuable erosion control in many cropland fields in the southern U.S. Unlike many of its relatives in the mint family, henbit does not have a strong or distinctive mint scent. Henbit is easily confused with Purple Deadnettle (L. purpureum), which has petioled leaves all the way to the top leaves. The middle and upper leaves of L. amplexicaule (Henbit) do not have petioles. Henbit leaves are also typically smaller than those of Purple Deadnettle. Henbit is an important early season source of nectar and pollen for honeybees.",
          "edibleParts":"Edible parts: Henbit can be consumed fresh or cooked as an edible herb, and it can be used in teas. The stem, flowers, and leaves are edible, and although this is in the mint family, many people say it tastes slightly like raw kale, not like mint. Henbit is very nutritious, high in iron, vitamins and fibre. You can add raw henbit to salads, soups, wraps, or green smoothies. According to Natural Medicinal Herbs (dot net) this plant is anti-rheumatic, diaphoretic, an excitant, febrifuge, a laxative and a stimulant.",
          "recipes":[
@@ -798,7 +510,7 @@
       {
          "commonName":"Hop Clover",
          "scientificName":"Trifolium campestre",
-         "image":"http://www.ediblewildfood.com/images/hop-clover-pictures/hop-clover.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/1/15/Trifolium_campestre_300907.jpg",
          "description":"Introduced from Europe and Asia this annual/biennial weed was used as a means to improve soil conditions and as a forage crop that quickly escaped cultivation. This plant grows well in poor soil because it takes nitrogen from the atmosphere and replaces nitrogen levels in the soil.",
          "edibleParts":"Edible parts: All types of clover have been eaten raw and cooked by First Nations people. Although very little information exists for this type of clover, what is known it that the flowers, leaves and seeds are edible. Flowers can be put into teas. Seeds (in autumn) can be collected and eaten as is or roasted. They can be ground into flour as well. Leaves can be tossed into salads.",
          "recipes":[
@@ -823,7 +535,7 @@
       {
          "commonName":"Horsetail",
          "scientificName":"Equisetum arvense",
-         "image":"http://www.ediblewildfood.com/images/horsetail-pictures/horsetail.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/2/27/Equisetum_arvense_fr.jpg",
          "description":"Horsetail has been used for centuries. Galen (Roman physician and philosopher approx. AD 129-199), used horsetail to aid arthritis, kidney and bladder problems as well as other ailments. This multi-purpose plant has numerous healing properties that include being an anti-hemorrhagic, antiseptic, antibiotic, an astringent, cardiac as well as a diuretic. Makes an excellent healing tea and cooked horsetail can be added to soups, stews or cooked in a stir-fry.",
          "edibleParts":"Edible parts: Aerial (cooked or dried).",
          "recipes":[
@@ -836,7 +548,7 @@
       {
          "commonName":"Horseweed",
          "scientificName":"Conyza canadensis",
-         "image":"http://www.ediblewildfood.com/images/horseweed-pictures/Horseweed_stem.jpg",
+         "image":"https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1005/0512.jpeg",
          "description":"Conyza canadensis (formerly Erigeron canadensis L.) is an annual plant native throughout most of North America and Central America. In traditional North American herbal medicine, horseweed was boiled to make steam for sweat lodges, taken as a snuff to stimulate sneezing during the course of a cold and burned to create a smoke that warded off insects. This plant is a strong competitor for water and is a huge nuisance for farmers.",
          "edibleParts":"Edible parts: Young leaves are edible. The leaves are best dried and stored for later use to help flavour meals (flavour is similar to tarragon). The young seedlings are also edible. Native people once pulverized the young tops and leaves and ate them raw (similar to using an onion). The leaves are a good source of calcium and potassium and well as protein.",
          "recipes":[
@@ -847,8 +559,8 @@
       },
       {
          "commonName":"Japanese Knotweed",
-         "scientificName":"Japanese Knotweed",
-         "image":"http://www.ediblewildfood.com/images/japanese-knotweed-pictures/japanese_knotweed_stem.jpg",
+         "scientificName":"Fallopia japonica",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/b/bf/Knotweed.jpg",
          "description":"Japanese knotweed is in the Buckwheat family, and is generally not liked in western nations because it can grow up to one metre per month, its roots travel over three metres deep, and they spread up to 7 metres in every direction. It grows through concrete, asphalt, dams, and buildings. Japanese Knotweed is known as Polygonum cuspidatum in North America, in Europe it is known as Fallopia japonica. It is a very tolerant plant and survives in a wide range of soil types. Its rhizomes can survive temperatures of −35 °C (−31 °F).",
          "edibleParts":"Edible parts: The best edible part of this plant are the young shoots, preferably when they are about 15-20 centimetres tall (6-8”). Depending on your taste buds you may think they have a lemony taste, some say it is more like rhubarb. Young shoots can be consumed raw or cooked and the growing tips and the unfurled leaves on the stalk and branches are edible. Stems can be sliced and steamed, simmered in soups, used in sauces, jams and fruit compotes. Japanese Knotweed is a great source of vitamins A and C. It also provides many vital minerals including iodine and is loaded with resveratrol.",
          "recipes":[
@@ -861,7 +573,7 @@
       {
          "commonName":"Joe Pye Weed",
          "scientificName":"Eupatorium purpureum",
-         "image":"http://www.ediblewildfood.com/images/joe-pye-weed-pictures/joe-pye-weed.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/4/40/Wasserdost%2C_Wasserhanf%2C_Kunigundenkraut_Bl%C3%BCte%2C_lat-_Eupatorium_Purpureum.jpg",
          "description":"Joe Pye weed is an amazing wild edible plant that is an herb, a wildflower, a butterfly plant and looks great in cultivated flower beds. The origin of the common name of this plant is uncertain however the most prevalent theory holds that it refers to a Native American named Joe Pye (Jopi), who used this perennial plant to cure typhus in the 1800’s. This is a hardy perennial that blooms when many other plants are finished and it lasts until the first hard frost. When made into a tea, it has many health benefits. Its other name, gravel root was listed in the U.S. Pharmacopoeia from 1820 to 1842.",
          "edibleParts":"Edible parts: The entire plant can be used including the root. The leaves and stems can be harvested in the summer before the flower buds open and can be dried and stored for later use. The roots are harvested in the autumn. Fresh flowers can be used to make an herbal tea.",
          "recipes":[
@@ -873,7 +585,7 @@
       {
          "commonName":"Knapweed",
          "scientificName":"Centaurea nigra",
-         "image":"http://www.ediblewildfood.com/images/knapweed-pictures/knapweed-plant.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8b/Centaurea_nigra-3233.jpg",
          "description":"The common knapweed has the nickname of Hardheads. If you pinch off an old flower head in the autumn, pull off any loose seed heads, there is a very hard kernel. If you then carefully split this there is a good chance that there will be a small grub inside. Goldfinches can often be found feeding on these grubs. This plant can survive for years in both grazed pasture and neglected grassland areas. Flowers are pollinated by a wide range of insects including bees, flies, butterflies and beetles and the seed heads attract goldfinches and other seed feeding birds.",
          "edibleParts":"Edible parts: Only the flowers are edible. This plant has some medicinal purposes.",
          "recipes":[
@@ -897,7 +609,7 @@
       {
          "commonName":"Kudzu",
          "scientificName":"Pueraria lobata",
-         "image":"http://www.ediblewildfood.com/images/kudzu-pictures/kudzu-petiole.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Kudzu_on_trees_in_Atlanta%2C_Georgia.jpg",
          "description":"Kudzu is in the Fabaceae (or Leguminosae) family. It was introduced into the U.S. from Asia in the late 1800’s for erosion control and as a livestock forage; the U.S. government supposedly paid farmers to plant kudzu as a ground cover and as a forage crop. This plant spreads by rhizomes and stolons. Due to its fast growth rate of 30cm (1’) per day it is also called the “mile a minute vine” and “the vine that ate the South” referring to the southern U.S. The bare vines are used for craft projects and basket making.",
          "edibleParts":"Edible parts: Kudzu leaves, flowers, blossoms, vine tips and roots are edible. The kudzu plant produces fragrant blossoms which you can make into jelly, syrup and candy. Cook the root - it contains about 10% starch which can be extracted and used as a coating in deep fried foods, or for thickening soups etc. This plant is a staple food in Japan. Flowers can be tossed on a salad, cooked or pickled. Stems and young leaves can be consumed raw or cooked.",
          "recipes":[
@@ -909,7 +621,7 @@
       {
          "commonName":"Labrador Tea",
          "scientificName":"Ledum groenlandicum",
-         "image":"http://www.ediblewildfood.com/images/Labrador-tea-pictures/labrador-tea-very-close-up-leaf.jpg",
+         "image":"http://web.unbc.ca/~fsty201/plant_image.php?imagepath=ERICACEAE/%20Ledum%20groenlandicum-general%20description.jpg",
          "description":"Labrador tea is a member of the heath family. This plant is a useful ecological indicator because Labrador tea is characteristic of acidic soils with high moisture and poor nutrient regimes. It is often associated with black spruce. Labrador tea is a slow growing evergreen shrub and new shoots of the season originate at the base of the flower cluster. Interestingly, this shrub can generally survive fire as the rhizomes are found deep in the organic layer and it is often found in areas too wet to burn. It is one of the first plants to re-colonize after fire and grows rapidly.",
          "edibleParts":"Edible parts: The fragrant leaves are used as a soothing tea and they have many medicinal uses. Add lemon to make an iced tea. Leaves were once used in beer making to make it heady. Flowers can also be used to make tea.",
          "recipes":[
@@ -921,7 +633,7 @@
       {
          "commonName":"Lamb's Quarters",
          "scientificName":"Chenopodium album",
-         "image":"http://www.ediblewildfood.com/images/lambs-quarters-pictures/lambs-quarters.jpg",
+         "image":"http://hasbrouck.asu.edu/imglib/seinet/Chenopodiaceae/photos/Chenopodium-album-FL-web-.jpg",
          "description":"Lamb's quarters is an annual wild edible that is a member of the Amaranthaceae family; in the genus Chenopodium.It was once thought that lamb's quarters was native to Europe. However, recent archaeological studies show that the seeds were stored and used by the American Blackfoot Indians during the sixteenth century. It is a purifying plant and helps to restore healthy nutrients to poor quality soil.This unique plant tends to spread quickly no matter the soil condition. One lamb’s quarter plant can produce up to 75,000 seeds.",
          "edibleParts":"Edible parts: Leaves, shoots, seeds, flowers. Saponins in the seeds are potentially toxic and should not be consumed in excess. Lamb’s quarters contain some oxalic acid therefore when eating this raw, small quantities are recommended. Cooking removes this acid. Lamb’s quarter can be eaten in salads or added to smoothies and juices. Steaming this edible weed is one method of cooking, or can be added to soups, sautés and much more. Drying this wild edible is one way to add this nutritious plant to your meals throughout the winter or you can blanch and freeze the leaves.",
          "recipes":[
@@ -958,7 +670,7 @@
       {
          "commonName":"Mayapple",
          "scientificName":"Podophyllum peltatum",
-         "image":"http://www.ediblewildfood.com/images/mayapple-pictures/unripe-mayapple-fruit.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/7d/Podophyllum_peltatum.jpg",
          "description":"The mayapple is a perennial plant that is in the Berberidaceae (barberry) family. Mayapple is unique in that it has only two umbrella-like leaves and one flower once fully mature. (In its immature stage it has only one leaf and no flower.) Mayapple colonizes by rhizomes forming dense mats making this an easy plant to spot from a distance. Many gardeners have transplanted this to their gardens but it will only survive in moist, humus-rich soils. It is even drought-tolerant within its eastern forest range.",
          "edibleParts":"Edible parts: Only the ripened yellow fruit is edible and the seeds must be removed!. The fruit is tasty but you MUST be sure it is ripe before ingesting it! If it is green or even greenish-yellow do not eat! The fruit can be used in fruit smoothies and in jellies.",
          "recipes":[
@@ -970,7 +682,7 @@
       {
          "commonName":"Meadowsweet",
          "scientificName":"Spiraea alba",
-         "image":"http://www.ediblewildfood.com/images/meadowsweet-pictures/meadowsweet-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Spiraea.alba.-.lindsey.jpg",
          "description":"Meadowsweet is a perennial plant in the Rosaceae family. Although edible, meadowsweet is more recognized as an herbal medicine used to help with many maladies. In particular the flower head contains salicylic acid. The flowers produce nectar and pollen attracting various bees, wasps, adult long-horned beetles (Cerambycidae), and the moth Ctenucha virginica (Virginia Ctenucha).",
          "edibleParts":"Edible parts: Young leaves are edible but are commonly used in soups and to make tea.",
          "recipes":[
@@ -982,7 +694,7 @@
       {
          "commonName":"Milk Thistle",
          "scientificName":"Silybum marianum",
-         "image":"http://www.ediblewildfood.com/images/milk-thistle-pictures/thistle_leaves.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/9/9f/Milk_thistle_flowerhead.jpg",
          "description":"For over 2,000 years people around the world have enjoyed milk thistle in their diet. Just about all parts of the plant have been used as food with no reports of toxicity. Although it can be used as food, milk thistle is better known as having medicinal benefits. It is a great tonic, increases appetite and aids in digestion. It is used by many people, including those who were addicted to alcohol to cleanse the liver. Milk thistle is used internally in the treatment of liver and gall bladder diseases, jaundice, cirrhosis, hepatitis and poisoning (including mushroom poisoning).",
          "edibleParts":"Edible parts: The young stalks, leaves, roots and flowers can be eaten. Milk thistle root can be eaten raw or cooked. Leaves can be eaten raw or cooked however the very sharp leaf-spines must be removed first. When cooked these leaves make a great spinach substitute. Flower buds can be cooked. The stems can be eaten raw or cooked. They are best when peeled and soaking is recommended to reduce the bitterness. Milk thistle can be used like asparagus or rhubarb or added to salads. They are at their best when used in spring when they are young. Roasted milk thistle seeds can be used as coffee substitute.",
          "recipes":[
@@ -1019,7 +731,7 @@
       {
          "commonName":"Motherwort",
          "scientificName":"Leonurus cardiaca",
-         "image":"http://www.ediblewildfood.com/images/motherwort-pictures/motherwort-young-growth.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Motherwort.jpg",
          "description":"Motherwort is a perennial plant that is best known as an herb that helps the heart and women’s disorders. Early Greeks gave pregnant women motherwort who suffered anxiety. The Latin name is derived from the Greek: leon for lion and ouros for tail. The name cardiac comes from kardiaca, meaning heart. Motherwort is categorically a mint that has a very bitter taste.",
          "edibleParts":"Edible parts: Fresh or dried flowers can be used as a flavouring in soups, particularly in split pea or lentil soup. Those who like to make beer have sometimes used the flowers as flavouring. The leaves and flowers can be used to make a tea.",
          "recipes":[
@@ -1032,7 +744,7 @@
       {
          "commonName":"Mugwort",
          "scientificName":"Artemisia vulgaris",
-         "image":"http://www.ediblewildfood.com/images/mugwort-pictures/mugwort-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Detail_of_mugwort_mature_leaf.jpg",
          "description":"Mugwort is a member of the Asteracea family and has a very long and interesting history as food and as medicine. Throughout the years mugwort beer has been a favourite in several cultures. Mugwort can be confused with wormwood (Artemisia absinthium). Examination of the leaves is how to tell the difference. Mugwort leaves are green on the top and white underneath, and they have pointed tips and purplish stems. Wormwood leaves have a silvery top and bottom and the flowers are more showy. Mugwort is native to Europe and Asia but has naturalized through much of the world.",
          "edibleParts":"Edible parts: Mugwort leaves can be eaten raw or cooked. They are aromatic and slightly bitter. Young spring shoots can be cooked. Leaves, flowers and roots can be used as a tea. Mugwort was commonly used as a flavouring in beer until hops became popular.",
          "recipes":[
@@ -1044,7 +756,7 @@
       {
          "commonName":"Mullein",
          "scientificName":"Verbascum thapsus",
-         "image":"http://www.ediblewildfood.com/images/mullein-pictures/mullein.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Starr_040723-0260_Verbascum_thapsus.jpg",
          "description":"Mullein is a soft (almost velvet-like) biennial that can grow very tall. This dicotyledonous plant produces a rosette of leaves in its first year of growth. The second year plant normally produces a single unbranched stem. The tall pole-like stem ends at a dense spike of yellow flowers. It is a common wild edible plant that spreads by prolifically producing seeds, but rarely becomes aggressively invasive, since its seed requires open ground to germinate. The common name, mullein, comes from the German language, meaning king’s candle because of its scepter-like, candle-straight growth. Depending on the summer weather conditions, this wild edible may not produce a lot of flowers. All parts of this plant are covered with star-shaped trichomes. This covering is particularly thick on the leaves, giving them a silvery appearance. As its other name implies, mullein leaves were once used as toilet paper.",
          "edibleParts":"Edible parts: Leaves and flowers. Although the leaves and flowers are edible, enjoying a cup of tea made from these parts is generally preferable. Leaves and flowers can be used in a salad.",
          "recipes":[
@@ -1057,7 +769,7 @@
       {
          "commonName":"Nepal Dock",
          "scientificName":"Rumex nepalensis",
-         "image":"http://www.ediblewildfood.com/images/nepal-dock-pictures/nepal-dock-stem.jpg",
+         "image":"./images/edible_json/rumex_nepalensis.jpg",
          "description":"Nepal dock is a perennial plant in the Polygonaceae family. Interestingly, this plant regenerates from tap roots and establishes quickly as seedlings. Once established, tough tap roots become difficult to remove. This plant grows abundantly in many parts of Asia and Africa but in particular in India and Nepal. It is used by many for its astringent qualities and for dyeing purposes.",
          "edibleParts":"Edible parts: Young leaves and shoots are edible in small quantities due to very high oxalic acid content. Many people enjoy preparing the leaves and shoots cooked as a vegetable because once cooked, the oxalic acid is greatly reduced. Roots are edible also when cooked.",
          "recipes":[
@@ -1253,7 +965,7 @@
       {
          "commonName":"Red Seeded Dandelion",
          "scientificName":"Taraxacum laevigatum",
-         "image":"http://www.ediblewildfood.com/images/red-seeded-dandelion-pictures/Taraxacum-laevigatum-leaf.jpg",
+         "image":"./images/edible_json/taraxacum_laevigatum.jpg",
          "description":"Most people would say they can easily identify dandelion but very few are aware that there are two relatively common species, the red-seeded and the common dandelion. While very similar, they can be distinguished by observing two main characteristics, the leaf shape and seed colour. The red seeded dandelion is a perennial plant in the Asteraceae family. Red-seeded dandelion is native to Europe; it was widely introduced to North America.",
          "edibleParts":"Edible parts: The flowers, leaves and roots are edible. Dandelions are bitter, especially after flowering which makes this plant great for digestive issues and is excellent for liver health.Flowers are used as tea, which are beneficial for eye and heart health.",
          "recipes":[
@@ -1325,7 +1037,7 @@
       {
          "commonName":"Sea Plantain",
          "scientificName":"Plantago maritima",
-         "image":"http://www.ediblewildfood.com/images/sea-plantain-pictures/sea-plantain.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/2/2d/Plantago_maritima.jpg",
          "description":"Sea plantain is in the Plantain family (Plantaginaceae) and is well-equipped to stand up to the harsh seaside climates. Its strong taproot extends deep into the ground acting as an anchor. The narrow, slightly wax-like covered leaves group into a tight rosette that can take constant spray from the sea. This species might grow slightly inland from the coast line if the wind carries the salt spray far enough inland. It is not frost tender and is noted for attracting wildlife. This hardy plant can tolerate short periods of time being underwater.",
          "edibleParts":"Edible parts: The leaves and seeds are edible. Young leaves can be consumed raw or cooked although fresh is best and has a pleasant taste. This is one of the nicer-tasting and more palatable (when fresh) members of the genus. Seeds can be eaten raw or cooked; and they can be ground into flour although they are tedious to harvest.",
          "recipes":[
@@ -1494,7 +1206,7 @@
       {
          "commonName":"Supplejack Vine",
          "scientificName":"Ripogonum scandens",
-         "image":"http://www.ediblewildfood.com/images/supplejack-vine-pictures/supplejack-vines.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/6/65/Rhipogonum_scandens_11.JPG",
          "description":"Supplejack vine is in the botanical family of Ripogonaceae, a family found only in New Zealand, eastern Australia and New Guinea. It is a hardy, evergreen climber. Early Maori used the tough stems of the Supplejack vine to tie the thatches roofs and walls of their homes. These were used to tie up fencing and platforms as well. Both the Maori and European settlers used this hardy vine to make crayfish pots, eel traps, ladders, flooring platforms in canoes, and baskets. As well as being used in construction, this vine is a great source of food and has been used as medicine. Various parts of the vine have been used for bowel troubles, rheumatism, fever, and as a blood tonic.",
          "edibleParts":"Edible parts: The berries are edible once they are ripe and can be eaten raw or cooked. Very young shoots are palatable and supposedly resemble asparagus in taste; it is best to eat these cooked. The seeds can be consumed and contain fatty acids. The sap can be consumed as well. The roots are known to be a substitute for sarsaparilla and they are rich in starch. Leaves are also edible.",
          "recipes":[
@@ -1554,7 +1266,7 @@
       {
          "commonName":"Teasel",
          "scientificName":"Dipsacus fullonum",
-         "image":"http://www.ediblewildfood.com/images/teasel-pictures/winter-teasel-seed-heads.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/b/be/Teasel_Ottawa.jpg",
          "description":"Teasel is a biennial plant that is very distinct to identify. The first year plant only produces a rosette of leaves. The second year it can grow to almost 2.5 metres and has a unique flower head. This plant was originally brought to North America from Europe. Interestingly, an average teasel plant produces 3300 seeds that birds enjoy. Teasel is self-fertile and it is noted for attracting wildlife.",
          "edibleParts":"Edible parts: Young leaves are edible although one must take great care to avoid the spiny, stout hairs. Teasel leaves can be consumed raw, cooked or added to a smoothie. The root can be used in a tea or for making vinegar or tinctures. The root has many health benefits as it contains inulin and a scabiocide.",
          "recipes":[
@@ -1566,7 +1278,7 @@
       {
          "commonName":"Thimbleberry",
          "scientificName":"Rubus parviflorus",
-         "image":"http://www.ediblewildfood.com/images/thimbleberry-pictures/thimbleberry-leaves.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/7c/Rubus_parviflorus_9481.JPG",
          "description":"Thimbleberry is in the Rosaceae (Rose) family and is in the same genus (Rubus) as raspberry, blackberry, loganberry, boysenberry, tayberry, dewberry and many others. Rubus fruit are an aggregate fruit composed of small, individual drupes, each individual is termed a drupelet. In a sense they are many little berries grouped together to make one large berry. This bush has broad soft leaves that can be used to make a quick pouch for holding berries you have gathered and provide a practical solution to assist you during your bathroom duties.",
          "edibleParts":"Edible parts: Thimbleberry fruits are smaller, flatter, and softer than raspberries, and have many small seeds. Like many of the other Pacific Northwest berries, thimbleberry was commonly eaten by the Native Americans. Thimbleberry is a great source of vitamins A and C with traces of potassium, calcium and iron.This berry helps to boost the immune system.The young shoots, roots and leaves have been used to treat many ailments. A tea is made of the leaves or roots as a blood tonic in the treatment of nausea, vomiting, diarrhea and dysentery. Its effects are believed to tone and strengthen the stomach helping increase appetite. Both the leaves and the bark of these plants have astringent properties.",
          "recipes":[
@@ -1578,7 +1290,7 @@
       {
          "commonName":"Toothwort",
          "scientificName":"Dentaria diphylla",
-         "image":"http://www.ediblewildfood.com/images/toothwort-pictures/toothwort-plant.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/e/ef/Toothwort_%28Dentaria_diphylla%29.jpg",
          "description":"Toothwort is a perennial plant that thrives is moist soils preferably in wooded areas. It is in the Brassicaceae family (mustard). This is a plant that is native to North America and is in the same family as the Cutleaf Toothwort (Cardamine concatenate).",
          "edibleParts":"Edible parts: The leaves and roots of the toothwort are edible. They can be eaten raw or cooked. Leaves can be added to salads or tossed into soups. The root can also be eaten raw or cooked. It has a crisp texture and a pleasant (somewhat) pungent taste. It can be added to salads or used as a relish. The root has a pungent acrid taste when first harvested; many Natives cleaned the roots, placed them on a blanket and covered them; then they left them to ferment for 4 - 5 days. Apparently after doing this, the roots developed a sweet taste. Fresh roots have a crisp texture that tastes somewhat hot and peppery and can be used to make horseradish.",
          "recipes":[
@@ -1591,7 +1303,7 @@
       {
          "commonName":"Trout Lily",
          "scientificName":"Erythronium americanum",
-         "image":"http://www.ediblewildfood.com/images/trout-lily-pictures/trout-lily.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/c/cc/Erythronium_americanum_full_Radnor_Lake.jpg",
          "description":"Trout Lily grows in huge colonies that can completely cover a forest floor. The colonies can be hundreds of years old and takes a long time to grow to such a size. Its bulbs are sterile up to about the seventh year and then it produces only one leaf and no flowers. When they mature one plant will grow two leaves and one, beautiful yellow flower. The colony spreads mostly by runners and less importantly by seed. Trout lilies have a symbiotic relationship with ants known as myrmecochory. This means that they exchange a lipid-rich appendage on their seeds in return for an ant seed dispersal that spreads the colony and protects the seeds from predation. This plant is a beautiful spring ephemeral meaning it is short-lived in the spring only.",
          "edibleParts":"Edible parts: Trout Lily is both medicinal and edible. The leaves have a very mild flavour and the flowers have a slight sweetness due to their nectar and are also slightly acrid. The corms are edible as well and have a cucumber-like taste. Trout lilies are an emetic (makes you throw up), therefore it is recommended not to eat mass quantities of these in one day. You can add this plant to a salad or eat them as a trail snack. You can also make a tea with the flower, leaves or corm (or all). Collect enough corms then they can be roasted.",
          "recipes":[
@@ -1603,7 +1315,7 @@
       {
          "commonName":"Valerian",
          "scientificName":"Valeriana officinalis",
-         "image":"http://www.ediblewildfood.com/images/valerian-pictures/valerian-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0e/20130530Baldrian_Altlussheim2.jpg",
          "description":"Valerian is most recognized for helping to ease insomnia, anxiety, and nervous restlessness. It became popular in Europe in the 17th century. In addition to being medicinal this is also edible. This plant was in the Valerianaceae family but is now in the Caprifoliacaeae family. When dried, this plant smells horrible.",
          "edibleParts":"Edible parts: The seeds are edible and the leaves have been used in the past as a condiment. Leaves can be used to make a tea as well as the root. Be sure to use in moderation.",
          "recipes":[
@@ -1615,7 +1327,7 @@
       {
          "commonName":"Vervain Mallow",
          "scientificName":"Malva alcea",
-         "image":"http://www.ediblewildfood.com/images/vervain-mallow-pictures/vervain-mallow-stem.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Hollyhock_Mallow_ALB.jpg",
          "description":"Vervain mallow was once known only as a cultivated plant but has escaped gardens and nowgrows in the wild. The stem of this plant contains a fibre that can be used to make cordage. Yellow, green and cream-coloured dyes can be obtained from this plant and the seed heads. The vervain mallow prefers sunlight and it prefers moist soil that ranges from a balanced pH to alkaline. Vervain mallow is a European native.",
          "edibleParts":"Edible parts: The flowers, leaves, and seed are edible. The flowers can be tossed into a salad. Leaves can be eaten raw or cooked. Hollyhock mallow leaves are fairly bland and can be used as a green in a salad. The seeds are rather tasty, somewhat nutty but are laborious to collect as they are quite small.",
          "recipes":[
@@ -1627,7 +1339,7 @@
       {
          "commonName":"White Trillium",
          "scientificName":"Trillium grandiflorum",
-         "image":"http://www.ediblewildfood.com/images/white-trillium-pictures/trillium-stamens.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0c/White_Trillium_Trillium_grandiflorum_Flower_2613px.jpg",
          "description":"White trillium is the showiest of all trilliums worldwide and is highly prized in Europe and Japan. In springtime many forest floors are totally covered in trilliums. Most botanists believe that the trillium belongs to a separate family of plants called Trilliaceae. Its close relatives are the genus Paris and Trillidium, neither of which is native to North America. Trilliums are slow growers requiring minimum seven years from seed to flowering. Once a seed germinates, the first year’s focus is on the roots only. In its second year, the seedling will produce a single seed leaf. In the third year, the first true leaf will appear. Two or more additional years will be required before the plant produces the three-whorled leaves that we are familiar with.",
          "edibleParts":"Edible parts: The leaves can be cooked and consumed. Due to the (approximate) seven year life cycle it is best to harvest only only leaf per plant. Check with your local laws as this plant may be protected. In the province of Ontario, trilliums are not to be picked if on conservation lands or in provincial parks. If the leaves as well as the flower are picked, the plant could die as it no longer has the ability to produce the energy it needs to take it through the winter into another spring.",
          "recipes":[
@@ -1639,7 +1351,7 @@
       {
          "commonName":"Wild Bee Balm",
          "scientificName":"Monarda fistulosa",
-         "image":"http://www.ediblewildfood.com/images/wild-bee-balm-pictures/wild-bee-balm.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/0/04/Purple_Flower_Wild_Bergamot_DSC_0172.JPG",
          "description":"Wild bergamot is very attractive to bees, butterflies and some birds. This aromatic plant is a perennial that grows from creeping rhizomes. This plant was extensively used by many Native Americans including, (but not limited to) the Menominee, the Ojibwa, and the Winnebago. It was used most commonly to cure colds by being made into a tea. Monarda didyma (red bee balm) is also known as Oswego tea, not Monarda fistulosa (wild bee balm).",
          "edibleParts":"Edible parts: Leaves and flowers. The leaves of wild bee balm are edible raw or cooked. They are also used as a flavoring in salads and cooked foods. The flowers make an attractive edible garnish in salads. Fresh or dried flowers and (or) leaves can be brewed into an aromatic tea.",
          "recipes":[
@@ -1651,7 +1363,7 @@
       {
          "commonName":"Wild Grape Vine",
          "scientificName":"Vitis riparia",
-         "image":"http://www.ediblewildfood.com/images/wild-grape-vine-pictures/wild-grapes.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/5/53/Vitis_riparia_%28USDA%29_2-3.jpg",
          "description":"IMPORTANT: A similar plant named Menispermum canadense (common moonseed) is poisonous. Click here for more. (Grape vine leaves taste like grapes.)\nThe wild grape vine is truly a vining plant; this means it has no solid, upright trunk. This climbing, multi-stemmed vine can grow so well it can totally envelop bushes and trees. Although the wild grape vine is also known as the riverbank grape, it grows well in locations other than riverbanks. There are dozens of species of wild grapes found growing throughout the world. All are perennial, woody vines that are deciduous. Grape vines grow thicker and higher than most other native vines.",
          "edibleParts":"Edible parts: The ripe grape can be eaten but tastes better after the first frost. They are not that large so eating them as a trail snack is suggested. Making juice from these is a great way to benefit from their goodness and the grapes freeze well so they can be used for juice throughout the winter. The leaves are also edible. They can be eaten in a salad (they have a tangy citrusy taste) or cooked. Throughout the Mediterranean, grape leaves are stuffed with rice, meat and spices. These are known as Dolma and there is also Warak Enab. The leaves can be blanched and frozen for use throughout the winter months.",
          "recipes":[
@@ -1690,7 +1402,7 @@
       {
          "commonName":"Yellow Dock",
          "scientificName":"Rumex crispus",
-         "image":"http://www.ediblewildfood.com/images/yellow-dock-pictures/yellow-dock.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/d/d6/Rumex_crispus_vallee-de-grace-amiens_80_12062007_3.jpg",
          "description":"Yellow dock has been used as a multi-purpose plant for centuries. The aerial parts are a food source and the roots have strong medicinal values. The seeds are useful and interestingly, yellow dock seeds are viable for up to 80 years. Yellow dock is an ingredient in some herbal toothpastes. This plant is also known as curled dock, narrow dock and curly leaf dock.\nCaution: The leaves usually contain high levels of oxalic acid. In very small quantities they can be eaten raw; eating large quantities means that the oxalic acid can lock-up other nutrients in the food, especially calcium, thus causing mineral deficiencies. The oxalic acid content will be greatly reduced if the plant is cooked. If you have any medical conditions, consult a health professional before you eat the leaves.",
          "edibleParts":"Edible parts: Leaves in very small quantities can be eaten raw until the flower spikes appear. Yellow dock’s leaves can be cooked at any time so long as they are green. Leaves can be added to salads, cooked as a potherb or added to soups and stews. Stems can be consumed raw or cooked but they are best peeled and the inner portion consumed. Seeds can be eaten raw or cooked once they are brown. Yellow dock seeds can be used as a coffee substitute. The root contains the most medicinal properties; it can be boiled to make a bitter tea that detoxifies, helps the liver or skin ailments, and is used as a laxative.",
          "recipes":[
@@ -1703,7 +1415,7 @@
       {
          "commonName":"Yellow Rocket",
          "scientificName":"Barbarea vulgaris",
-         "image":"http://www.ediblewildfood.com/images/yellow-rocket-pictures/yellow-rocket.jpg",
+         "image":"https://upload.wikimedia.org/wikipedia/commons/7/73/Barbarea_vulgaris1.jpg",
          "description":"Yellow rocket is a perennial that flowers from May to August and adds colour to fields, gardens and roadsides. This plant is often confused with wild mustard but it can be distinguished from wild mustard by its smaller, deeper golden yellow flowers, hairless leaves that are a glossy green or may even be slightly purplish in colour, the large terminal lobe within the leaves. If the winter season is not too severe, this plant can be found and collected throughout the winter. Sometimes it even stays green underneath the snow.",
          "edibleParts":"Edible parts: The basal leaves are edible early spring but later become bitter, although still edible. At this stage they can be chopped up and added to salads like rucola, which has a similar tang. The leaves can be cut up fresh over salads, older leaves can be used in stews or soups, or you can dry the leaves to make tea. Flowering stems can be cooked like broccoli.",
          "recipes":[
