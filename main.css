@@ -27,10 +27,7 @@ button {
   text-align: center;
   height: 90vmax;
   width: 90vmin;
-  margin-top: 5vmax;
-  margin-bottom:5vmax;
-  margin-left: 5vmin;
-  margin-right: 5vmin;
+  margin: 3vmax auto;
   position: relative;
 }
 
@@ -62,35 +59,51 @@ button {
   background-size: cover;
   border: .75em solid black;
   margin: .5em auto;
+  position: relative
+  z-index: 1;
 }
 
 .img-grid-hover {
   background-color: rgba(20, 20, 20, 0.75);
   color: white;
-  position: absolute;
+  width: 94vmin;
+  height: 94vmin;
   top: 0;
   left: 0;
   z-index: 5;
 }
 
-.map-results h1 {
+.img-grid-hover h1, {
+  font-size: 4em;
+}
+
+.img-grid-hover h2 {
+  font-size: 2em;
+}
+
+.results h1 {
   font-size: 3em;
   margin: 20px auto;
 }
 
-.map-results p, .map-results label .map-results input{
+.results p, .results label .results input{
   font-size: 1em;
 }
 
-.map-results form {
+.results form {
   width: 90%;
   margin 0 auto;
 }
 
-.map-results .address-box {
+.results .plant-info {
+  height: 10vmax;
+  width: 90vmin;
+}
+
+.results .address-box {
   display: flex;
+  justify-content: space-between;
   margin: 10px auto;
-  width: 90%;
 }
 
 .address-box #address {
@@ -103,21 +116,38 @@ button {
 }
 
 .address-box input {
-  flex-grow: 2;
+  flex-grow: 4;
 }
 
-.map-results .location-submit {
+.results .buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1vmax;
+  margin-top: 2vmax;
+}
+
+.results .location-submit, .results .search-again {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   border: 1px greenYellow solid;
   background-color: white;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: flex-end;
+  font-size: 1em;
+  margin: 3px 6px;
 }
 
-.map-results .map {
-  height: 100%;
+.results .map {
+  height: 50vmax;
+  width: 90vmin;
+  margin: 3vmax auto;
+}
+
+.results .plant-info h1 {
+  font-size: 2em;
+  margin: 5px auto;
+}
+
+.results .plant-info img {
+  height: 50vmax;
 }
 
 .hidden {
