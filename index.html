@@ -20,9 +20,12 @@
 
       <section class="cover-page" id="js-cover-page" role="region">
         <div class="container">
-          <h1>eat the weeds</h1>
-          <h2>It is estimated that only 3% of the world's edible plants make up 90% of the world's plant food supply.<br/> The rest are all around you. </h2>
-          <button id="js-enter" type="button">Enter</button>
+          <header>
+            <h1>eat the weeds</h1>
+            <img src="./images/cover_page/cover_page.jpg"/>
+            <h2>It is estimated that only 3% of the world's edible plants make up 90% of the world's plant food supply.<br/> The rest are all around you. </h2>
+            <button id="js-enter" type="button">Enter</button>
+          </header>
         </div>
       </section>
 
@@ -56,22 +59,21 @@
         <div class="container">
           <div class="plant-info" id="js-plant-info">
           </div>
-          <form>
+          <form id="js-form">
+            <h1>Find this weed in your area!</h1>
               <div class="address-box">
                 <label for="address">Your Address</label>
                 <input type="string" id="address" name="usersAddress">
               </div>
               <div class="buttons">
                 <input class="location-submit" id="js-location-submit" type="submit" value="submit">
-                <button class="search-again" id="js-search-again">search again</button>
               </div>
           </form>
-          <div id="js-map" class="map">
-
+          <div id="js-map" class="map hidden">
+            <button class="search-again" id="js-search-again">search again</button>
           </div>
         </div>
       </section>
-
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="app.js"></script>

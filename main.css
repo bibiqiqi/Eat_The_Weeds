@@ -8,48 +8,85 @@ body {
 h1 {
   font-size: 5em;
   font-family: 'Amatic SC', cursive;
-  margin: 5% auto;
+  margin: 0 auto;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.25em;
   margin: 5% auto;
 }
 
 button {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.1em;
-  border: 1px dotted greenYellow;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  border: 1px dotted black;
   background-color: white;
+  color: black;
 }
 
 .container {
   text-align: center;
-  height: 90vmax;
-  width: 90vmin;
-  margin: 3vmax auto;
+  height: 100vmax;
+  width: 100vmin;
+  margin: 0 auto;
   position: relative;
+  background-color: #57ff2f47;
+}
+
+.cover-page header {
+  padding: 5% 5%;
+  color: black
+}
+
+.cover-page img {
+  width: 100%;
+  height: auto;
+  margin: 5% auto;
 }
 
 .cover-page button{
   margin: 5% auto;
+  background-color: transparent;
+}
+
+.main-page .container {
+  background-color: white;
+  padding: 5% 5%;
 }
 
 .main-page h1 {
+  font-size: 4em;
+}
+
+.main-page h1:nth-child(3) {
   font-size: 3em;
 }
 
-.main-page button {
-  margin: 10% auto;
+.main-page ul {
+  padding: 5% 5%;
+}
+
+.main-page li {
+  font-size: 1.25em;
+  line-height: 1.1em;
+  margin: .5em 0;
 }
 
 .main-page #down-arrow {
   width: 35%;
-  margin: 5em auto 0 auto;
+  margin: 0 auto;
 }
 
 .img-browse .container {
   margin: 2em auto;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.img-browse .figures {
+  position: relative;
 }
 
 .img-grid {
@@ -59,7 +96,7 @@ button {
   background-size: cover;
   border: .75em solid black;
   margin: .5em auto;
-  position: relative
+  position: relative;
   z-index: 1;
 }
 
@@ -68,8 +105,9 @@ button {
   color: white;
   width: 94vmin;
   height: 94vmin;
+  position: absolute;
   top: 0;
-  left: 0;
+  left: 2vmin;
   z-index: 5;
 }
 
@@ -81,29 +119,43 @@ button {
   font-size: 2em;
 }
 
+.results .container {
+  background-color: white;
+  padding: 2% 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.results h1, .results h2 {
+  display: inline-block;
+  margin: 0px auto;
+}
+
 .results h1 {
-  font-size: 3em;
-  margin: 20px auto;
+  font-size: 2em;
+}
+
+.results h2 {
+ font-size: 1.5em;
+}
+
+.results form {
+  height: 50vmax;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .results p, .results label .results input{
   font-size: 1em;
 }
 
-.results form {
-  width: 90%;
-  margin 0 auto;
-}
-
-.results .plant-info {
-  height: 10vmax;
-  width: 90vmin;
-}
-
 .results .address-box {
   display: flex;
   justify-content: space-between;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 .address-box #address {
@@ -119,14 +171,33 @@ button {
   flex-grow: 4;
 }
 
+.plant-info .main {
+  padding: .5em;
+}
+
+.plant-info .main img {
+  border: black solid .25em;
+  margin-right: .5em;
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.plant-info .main ul {
+  font-size: .9em;
+  text-align: left;
+}
+
+.plant-info .main li {
+  margin: .25em 0;
+}
+
 .results .buttons {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1vmax;
-  margin-top: 2vmax;
 }
 
-.results .location-submit, .results .search-again {
+.results .location-submit {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   border: 1px greenYellow solid;
@@ -137,19 +208,52 @@ button {
 
 .results .map {
   height: 50vmax;
-  width: 90vmin;
-  margin: 3vmax auto;
+  width: 100vmin;
+  flex-grow: 1;
 }
 
-.results .plant-info h1 {
-  font-size: 2em;
-  margin: 5px auto;
-}
-
-.results .plant-info img {
-  height: 50vmax;
+.map .search-again {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  border: 1px greenYellow solid;
+  background-color: white;
+  font-size: 1em;
+  margin: 3px 6px;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 {
+    font-size: 7em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  button {
+    font-size: 3em;
+  }
+  .cover-page img {
+    margin: 3% auto;
+  }
+  .cover-page h2 {
+    margin: 0 auto;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

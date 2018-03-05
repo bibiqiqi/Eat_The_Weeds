@@ -12,9 +12,9 @@ function renderImageGrid(item, index) {
 //generates html markup for the image grid that users can browse through.
 //will repeat the code for one image by the number of images that exist in the json files
   let imageHtml = `
-    <figure id="js-figure-${index}">
-      <div class="img-grid js-img" id="${index}" style="background-image: url(${item.image})"></div>
-      <div class="img-grid-hover hidden" id="js-img-grid-hover-${index}">
+    <figure id="figure-${index}" class="figures">
+      <div class="img-grid js-img" style="background-image: url(${item.image})"></div>
+      <div class="img-grid-hover hidden">
         <br><br><br><br>
         <h1>${LOCAL_JSON.plants[index].commonName}</h1>
         <h2>(${LOCAL_JSON.plants[index].scientificName})</h2>
@@ -52,15 +52,16 @@ function renderPlantSummary() {
   let item =  LOCAL_JSON.plants[USER_INFO.choice];
   console.log(item);
   let plantSumHtml = `
-    <h1>${item.commonName}<h1>
-    <h2>${item.scientificName}<h2>
-    <img src="${item.image}" alt="${item.scientificName}">
-    <ul>
-      <li>${item.edibleParts}</li>
-      <li><a href="${item.recipes[0].recipeName_url}">${item.recipes[0].recipeName}</a></li>
-    <ul>
+    <h1>${item.commonName}</h1>
+    <h2>(${item.scientificName})</h2>
+    <div class="main" role="main">
+      <img src="${item.image}" alt="${item.scientificName}">
+      <ul>
+        <li>${item.edibleParts}</li>
+        <li>Recipe: <a href="${item.recipes[0].recipeName_url}">${item.recipes[0].recipeName}</a></li>
+      </ul>
+    </div>
     `
-  debugger;
   console.log('renderPlantSummary ran');
   return (plantSumHtml);
 }
@@ -101,6 +102,7 @@ function iNatDataToMarkers() {
     MAP.fitBounds(BOUNDS);
     //auto-center
     MAP.panToBounds(BOUNDS);
+    $('#js-map').removeClass('hidden');
   });
   console.log('iNatDataToMarkers ran');
 }
@@ -139,15 +141,18 @@ function initMap() {
 
 //when user hovers over an image, div with plant name appears above image
 function hoverShowsName() {
-  $('.js-img').hover(
-    function() {
-      let index = $(this).attr('id');
-      console.log(index);
-      $(`#js-img-grid-hover-${index}`).removeClass('hidden');
- }, function() {
-      $(`#js-img-grid-hover-${index}`).addClass('hidden');
-    }
-  );
+  $('.figures').hover(function(event) {
+    //let index = $(this).attr('id');
+    //console.log(index);
+    //debugger;
+    //let figureId = $(event.currentTarget).attr('id');
+    $(this).find('.img-grid-hover').removeClass('hidden');
+    //$(`#js-img-grid-hover-${index}`).removeClass('hidden');
+  }, function() {
+    //let index = $(this).attr('id');
+    $(this).find('.img-grid-hover').addClass('hidden');
+    //$(`#js-img-grid-hover-${index}`).addClass('hidden');
+  });
   console.log('hoverShowsName ran');
 }
 
@@ -160,7 +165,7 @@ function searchAgain() {
     $('#js-results').addClass('hidden');
     $('#js-img-browse').removeClass('hidden');
     displayImageGrid();
-    //hoverShowsName();
+    hoverShowsName();
     resultsPage();
     console.log('searchAgain ran');
   });
@@ -180,9 +185,11 @@ function doTheMainPage() {
 }
 
 function resultsPage() {
-  $('.js-img').on("click", function(event) {
-    USER_INFO.choice = $(this).attr('id');
-    console.log(USER_INFO.choice);
+  $('.figures').on("click", function(event) {
+    let figureId = $(this).attr('id');
+    let indexString = figureId.slice(7, figureId.length);
+    let index = Number(indexString);
+    USER_INFO.choice = index;
     $('#js-main-page').addClass('hidden');
     $('#js-img-browse').addClass('hidden');
     $('#js-plant-info').html(renderPlantSummary());
@@ -198,6 +205,7 @@ function doTheMap() {
   $('#js-location-submit').on("click", function(event) {
     event.preventDefault();
     //get the value of the user's address
+    $('#js-form').addClass('hidden');
     USER_INFO.address = $('#address').val();
     addressToGeo();
     console.log('doTheMap ran');
