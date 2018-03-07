@@ -228,32 +228,261 @@ button {
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media screen and (min-width: 400px, orientation: portrait) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 3em;
+  }
+
+  .main-page h1 {
+    font-size: 4.5em;
+  }
+
+  .main-page h2 {
+    font-size: 2em;
+    margin: 3% auto;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 3.75em;
+  }
+
+  .main-page ul {
+    font-size: 1.2em;
+    padding: 3% 3%;
+  }
+
+  .results .container {
+    padding: 3% 3%;
+  }
+
+  .results h1 {
+    font-size: 2.5em;
+  }
+
+  .results h2 {
+    font-size: 2em;
+  }
+
+  .results .plant-info {
+    margin-top: 3%;
+  }
+
+  .plant-info .main img {
+    height: 45%;
+    width: 45%;
+    margin: 5%;
+  }
+
+  .plant-info .main ul {
+    font-size: 1.25em;
+    margin: 5%;
+  }
+
+  form h1 {
+    font-size: 4em;
+  }
+
+  form .address-box label {
+    font-size: 1.5em;
+  }
+
+  .results .location-submit {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.5em;
+  }
+
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
     font-size: 7em;
   }
+
   h2 {
     font-size: 2.25em;
   }
+
   button {
     font-size: 3em;
   }
+
   .cover-page img {
     margin: 3% auto;
   }
+
   .cover-page h2 {
     margin: 0 auto;
+  }
+
+  .main-page h1 {
+    font-size: 7em;
+  }
+
+  .main-page h2 {
+    font-size: 3em;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 5em;
+  }
+
+  .main-page ul {
+    font-size: 1.5em;
+  }
+
+  .results .container {
+    padding: 4% 4%;
+  }
+
+  .results h1 {
+    font-size: 3.5em;
+  }
+
+  .results h2 {
+    font-size: 2em;
+  }
+
+  .results .plant-info {
+    margin-top: 5%;
+  }
+
+  .plant-info .main img {
+    height: 45%;
+    width: 45%;
+    margin: 5%;
+  }
+
+  .plant-info .main ul {
+    font-size: 1.5em;
+    margin: 5%;
+  }
+
+  form h1 {
+    font-size: 4em;
+  }
+
+  form .address-box label {
+    font-size: 2em;
+  }
+
+  .results .location-submit {
+    font-size: 2em;
   }
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  h1 {
+    font-size: 7.5em;
+    margin: 1% auto;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    margin: 3% auto;
+  }
+
+  .cover-page h2 {
+    margin: 3% auto;
+  }
+
+  .main-page h1 {
+    font-size: 7.5em;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 5.5em;
+  }
+
+  .main-page ul {
+    font-size: 1.75em;
+  }
+
+  .main-page .img-grid-hover {
+    left: 10vmin;
+  }
+
+  .results .container {
+    padding: 4% 4%;
+  }
+
+  .results h1 {
+    font-size: 4.5em;
+  }
+
+  .results h2 {
+    font-size: 2.5em;
+  }
+
+  .plant-info .main ul {
+    font-size: 1.75em;
+  }
+
+  form .address-box label {
+    font-size: 2.5em;
+  }
+
+  .results .location-submit {
+    font-size: 2.5em;
+  }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 10em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  button {
+    font-size: 4.5em;
+  }
+
+  .main-page h1 {
+    font-size: 10em;
+  }
+
+  .main-page h2 {
+    font-size: 4em;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 7em;
+  }
+
+  .main-page ul {
+    font-size: 2.5em;
+  }
+
+  .results h1 {
+    font-size: 6em;
+  }
+
+  .results h2 {
+    font-size: 4em;
+  }
+
+  .plant-info .main ul {
+    font-size: 2em;
+  }
+
+  form .address-box label {
+    font-size: 3.25em;
+  }
+
+  .results .location-submit {
+    font-size: 3em;
+  }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}

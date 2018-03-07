@@ -6,13 +6,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+        <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
 <!--fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Oswald">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation-icons/3.0/foundation-icons.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-
 
     </head>
 
@@ -45,33 +45,31 @@
 
       <section class="img-browse hidden" id="js-img-browse" role="region">
         <div class="container" id="js-img-contain">
-      <!--<div class="img-grid js-img-grid" id="index" style="background-image: url(${item.image})"></div>-->
-      <!--appended when user hovers-->
-      <!--<div class="img-grid-hover">
-            <h1>${LOCAL_JSON.plants[whichWeed].scientificName}</h1>
-            <h2>${LOCAL_JSON.plants[whichWeed].commonName}</h2>
-          </div>-->
         </div>
       </section>
 
       <!---if user chooses "browse by location", this page will allow them to input their address -->
       <section class="results hidden" id="js-results" role="region">
         <div class="container">
+          <div class="no-results hidden">
+            <h2>Sorry, no one has observed any sightings of this weed in your area</h2>
+            <button class="search-again js-new-weed">pick new weed</button>
+          </div>
           <div class="plant-info" id="js-plant-info">
           </div>
           <form id="js-form">
-            <h1>Find this weed in your area!</h1>
+            <h1>Find this weed in your area</h1>
               <div class="address-box">
                 <label for="address">Your Address</label>
                 <input type="string" id="address" name="usersAddress">
+                <label for="address">Your Address</label>
               </div>
               <div class="buttons">
                 <input class="location-submit" id="js-location-submit" type="submit" value="submit">
               </div>
           </form>
-          <div id="js-map" class="map hidden">
-            <button class="search-again" id="js-search-again">search again</button>
-          </div>
+            <div id="js-map" class="map hidden">
+            </div>
         </div>
       </section>
 

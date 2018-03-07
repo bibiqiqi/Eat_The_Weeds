@@ -1,0 +1,450 @@
+
+body {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin: 5% auto;
+}
+
+button {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: 1px dotted black;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  height: 100vmin;
+  width: 100vmax;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cover-page .container{
+  background-image: url(./images/cover_page/cover_page_landscape_pale.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-page header {
+  padding: 5% 5%;
+  color: black
+}
+
+.cover-page img {
+  display: none;
+}
+
+.cover-page button{
+  margin: 1% auto;
+  background-color: transparent;
+}
+
+.main-page .container {
+  background-color: white;
+  padding: 2%;
+}
+
+.main-page h1 {
+  font-size: 3.6em;
+}
+
+.main-page h2 {
+  margin: 2% auto
+}
+
+.main-page h1:nth-child(3) {
+  font-size: 3em;
+}
+
+.main-page ul {
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+.main-page li {
+  font-size: .8em;
+  line-height: 1.1em;
+  margin: .5em 0;
+}
+
+.main-page #down-arrow {
+  display: none;
+}
+
+.img-browse .container {
+  margin: 2em auto;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.img-browse .figures {
+  position: relative;
+}
+
+.img-grid, .img-grid-hover {
+  width: 90vmin;
+  height: 90vmin;
+  border: 3vmin solid black;
+}
+
+.img-grid {
+  background-position: center center;
+  background-size: cover;
+  border: 3vmin solid black;
+  margin: 1vmin auto;
+  position: relative;
+  z-index: 1;
+}
+
+.img-grid-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -47.5vmin;
+  z-index: 5;
+}
+
+.img-grid-hover h1, {
+  font-size: 4em;
+}
+
+.img-grid-hover h2 {
+  font-size: 2em;
+}
+
+.results .container {
+  background-color: white;
+  padding: 3% 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.results h1, .results h2 {
+  display: inline-block;
+  margin: 0px auto;
+}
+
+.results h1 {
+  font-size: 2em;
+}
+
+.results h2 {
+ font-size: 1.5em;
+}
+
+.results form {
+  height: 100vmin;
+  width: 30vmax;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.results .address-box {
+  flex-direction: column;
+}
+
+.results .no-results {
+  padding: 10% 0%;
+  background-image: url(./images/no-results.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.results .no-results h2 {
+  width: 70%;
+  font-size: 2em;
+}
+
+.results .no-results button {
+  margin: 5%;
+}
+
+.results p, .results label .results input {
+  font-size: 1em;
+}
+
+.results .address-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.address-box #address {
+  border: 1px greenYellow solid;
+  width: 8em;
+  font-size: 1em;
+  margin: .5em auto;
+}
+
+.address-box label:nth-child(1)  {
+  display: none;
+}
+
+.address-box label {
+ flex-grow: 1;
+}
+
+.address-box input {
+  flex-grow: 4;
+}
+
+.results .plant-info {
+  height: 100vmin;
+  width: 50vmax;
+}
+
+.plant-info main {
+  padding: 0;
+  margin: 3%;
+}
+
+.plant-info main img {
+  border: black solid .25em;
+  margin-right: .5em;
+  margin-bottom: .1em;
+  width: 30%;
+  float: left;
+}
+
+.plant-info main p {
+  font-size: .9em;
+  text-align: left;
+}
+
+.plant-info main p:nth-child(3) {
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  margin: .25em;
+}
+
+.plant-info main button {
+  font-size: 1em;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #57ff2f47;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 4%;
+}
+
+/* unvisited link */
+.plant-info main a:link {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #57ff2f47;
+}
+
+/* visited link */
+.plant-info main a:visited {
+  color: #57ff2f47;
+}
+
+.results .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.results .location-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #57ff2f47;
+  font-size: 1em;
+  margin: 20% 5%;
+}
+
+.results .map {
+  height: 50vmax;
+  width: 100vmin;
+  flex-grow: 1;
+  margin: 2%;
+}
+
+.map .search-again {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  border: 1px greenYellow solid;
+  background-color: white;
+  font-size: 1em;
+  margin: 3px 6px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Larger than mobile */
+@media (min-width: 732px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 3em;
+  }
+
+  .main-page h1 {
+    font-size: 4.5em;
+    margin: 2% auto;
+  }
+
+  .main-page h2 {
+    font-size: 2em;
+    margin: 3% auto;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 3.75em;
+  }
+
+  .main-page ul {
+    font-size: 1.2em;
+    padding: 3% 3%;
+  }
+
+  .results .container {
+    padding: 3% 3%;
+  }
+
+  .results h1 {
+    font-size: 2.5em;
+  }
+
+  .results h2 {
+    font-size: 2em;
+  }
+
+  .results .plant-info {
+    margin-top: 0;
+  }
+
+  .plant-info main img {
+    height: 45%;
+    width: 45%;
+    margin: 5%;
+  }
+
+  .plant-info main ul {
+    font-size: 1em;
+    margin: 5%;
+  }
+
+  form h1 {
+    font-size: 4em;
+  }
+
+  form .address-box label {
+    font-size: 1.5em;
+  }
+
+  .results .location-submit {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.5em;
+  }
+
+}
+
+/* Larger than tablet or desktop */
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 10em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  button {
+    font-size: 4.5em;
+  }
+
+  .main-page h1 {
+    font-size: 10em;
+    margin: 0 auto;
+  }
+
+  .main-page h2 {
+    font-size: 3.75em;
+    margin: 2% auto;
+  }
+
+  .main-page h1:nth-child(3) {
+    font-size: 7em;
+  }
+
+  .main-page ul {
+    font-size: 2.5em;
+  }
+
+  .results h1 {
+    font-size: 4em;
+  }
+
+  .results h2 {
+    font-size: 3em;
+  }
+
+  #address {
+    width: 8em;
+    font-size: 2.25em;
+    margin: .5em auto;
+  }
+
+  .plant-info main {
+    margin: 5%;
+  }
+
+  .plant-info main p {
+    font-size: 1.75em;
+  }
+
+  .plant-info main p:nth-child(3) {
+    font-size: 2em;
+  }
+
+  .plant-info main img {
+    margin-right: 5%;
+  }
+
+  .plant-info main button {
+    font-size: 2.5em;
+    margin: 5%;
+  }
+
+  form .address-box label {
+    font-size: 2.5em;
+  }
+
+  .results form h1 {
+    font-size: 4.5em;
+  }
+  .results .location-submit {
+    font-size: 2.5em;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

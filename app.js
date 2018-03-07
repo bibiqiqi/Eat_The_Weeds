@@ -15,7 +15,6 @@ function renderImageGrid(item, index) {
     <figure id="figure-${index}" class="figures">
       <div class="img-grid js-img" style="background-image: url(${item.image})"></div>
       <div class="img-grid-hover hidden">
-        <br><br><br><br>
         <h1>${LOCAL_JSON.plants[index].commonName}</h1>
         <h2>(${LOCAL_JSON.plants[index].scientificName})</h2>
       </div>
@@ -32,10 +31,11 @@ function displayImageGrid() {
 }
 
 //makes JSON request and stores the data in a local file
-function makeLocalJson() {
+function makeLocalJson(callback) {
   $.getJSON(EDIBLES_JSON, function(data) {
     LOCAL_JSON = data;
     console.log(LOCAL_JSON);
+    callback();
   });
 }
 
@@ -50,20 +50,37 @@ function makeLocalJson() {
 
 function renderPlantSummary() {
   let item =  LOCAL_JSON.plants[USER_INFO.choice];
-  console.log(item);
-  let plantSumHtml = `
-    <h1>${item.commonName}</h1>
-    <h2>(${item.scientificName})</h2>
-    <div class="main" role="main">
-      <img src="${item.image}" alt="${item.scientificName}">
-      <ul>
-        <li>${item.edibleParts}</li>
-        <li>Recipe: <a href="${item.recipes[0].recipeName_url}">${item.recipes[0].recipeName}</a></li>
-      </ul>
-    </div>
-    `
-  console.log('renderPlantSummary ran');
-  return (plantSumHtml);
+  if (item.recipes[0].recipeName == undefined) {
+    let plantSumHtml = `
+      <header>
+        <h1>${item.commonName}</h1>
+        <h2> (${item.scientificName})</h2>
+      </header>
+      <main role="main">
+        <img src="${item.image}" alt="${item.scientificName}">
+          <p>${item.edibleParts}</p>
+          <button class="search-again js-search-again">pick new weed</button>
+        </ul>
+      </main>
+      `
+    return (plantSumHtml);
+  }
+  else {
+    let plantSumHtml = `
+      <header>
+        <h1>${item.commonName}</h1>
+        <h2> (${item.scientificName})</h2>
+      </header>
+      <main role="main">
+        <img src="${item.image}" alt="${item.scientificName}">
+          <p>${item.edibleParts}</p>
+          <p>Recipe: <a href="${item.recipes[0].recipeName_url}">${item.recipes[0].recipeName}</a></p>
+          <button class="search-again js-search-again">pick new weed</button>
+        </ul>
+      </main>
+      `
+    return (plantSumHtml);
+  }
 }
 
 //gets data from iNAT API
@@ -85,24 +102,34 @@ function iNatDataToMarkers() {
   $.getJSON(iNAT_SEARCH_URL, query, function (data) {
     let results = data.results;
     console.log (results);
-    BOUNDS = new google.maps.LatLngBounds();
-    let markerGeo = {};
-    results.forEach(function(result) {
-      markerGeo.lat = parseFloat(result.geojson.coordinates[1]);
-      markerGeo.lng = parseFloat(result.geojson.coordinates[0]);
-    //for each result item, create a marker at corresponding location
-      MARKER = new google.maps.Marker({
-        position: markerGeo,
-        map: MAP
+    if (results.length == 0) {
+      $('#js-plant-info').addClass('hidden');
+      $('#js-form').addClass('hidden');
+      $('#js-map').addClass('hidden');
+      $('.no-results').removeClass('hidden');
+      noResultsSearch();
+    }
+    else {
+      BOUNDS = new google.maps.LatLngBounds();
+      let markerGeo = {};
+      results.forEach(function(result) {
+        markerGeo.lat = parseFloat(result.geojson.coordinates[1]);
+        markerGeo.lng = parseFloat(result.geojson.coordinates[0]);
+      //for each result item, create a marker at corresponding location
+        MARKER = new google.maps.Marker({
+          position: markerGeo,
+          map: MAP
+        });
+        let loc = new google.maps.LatLng(markerGeo.lat, markerGeo.lng);
+        BOUNDS.extend(loc);
       });
-      let loc = new google.maps.LatLng(markerGeo.lat, markerGeo.lng);
-      BOUNDS.extend(loc);
-    });
-    // auto-zoom
-    MAP.fitBounds(BOUNDS);
-    //auto-center
-    MAP.panToBounds(BOUNDS);
-    $('#js-map').removeClass('hidden');
+      // auto-zoom
+      MAP.fitBounds(BOUNDS);
+      //auto-center
+      MAP.panToBounds(BOUNDS);
+      $('#js-map').removeClass('hidden');
+      $('.js-search-again').removeClass('hidden');
+    }
   });
   console.log('iNatDataToMarkers ran');
 }
@@ -139,6 +166,18 @@ function initMap() {
 
 //event listeners
 
+function noResultsSearch() {
+  $('.js-new-weed').on("click", function(event) {
+    $('.no-results').addClass('hidden');
+    $('#js-img-browse').removeClass('hidden');
+    displayImageGrid();
+    hoverShowsName();
+    $('#js-plant-info').removeClass('hidden');
+    $('#js-form').removeClass('hidden');
+    resultsPage();
+
+  });
+}
 //when user hovers over an image, div with plant name appears above image
 function hoverShowsName() {
   $('.figures').hover(function(event) {
@@ -157,7 +196,7 @@ function hoverShowsName() {
 }
 
 function searchAgain() {
-  $('#js-search-again').on("click", function(event) {
+  $('.js-search-again').on("click", function(event) {
     //Clear out the user info
     Object.keys(USER_INFO).forEach(function (prop) {
       delete USER_INFO[prop];
@@ -166,6 +205,8 @@ function searchAgain() {
     $('#js-img-browse').removeClass('hidden');
     displayImageGrid();
     hoverShowsName();
+    $('#js-map').addClass('hidden');
+    $('#js-form').removeClass('hidden');
     resultsPage();
     console.log('searchAgain ran');
   });
@@ -187,8 +228,7 @@ function doTheMainPage() {
 function resultsPage() {
   $('.figures').on("click", function(event) {
     let figureId = $(this).attr('id');
-    let indexString = figureId.slice(7, figureId.length);
-    let index = Number(indexString);
+    let index = Number(figureId.slice(7, figureId.length));
     USER_INFO.choice = index;
     $('#js-main-page').addClass('hidden');
     $('#js-img-browse').addClass('hidden');
@@ -212,5 +252,6 @@ function doTheMap() {
   });
  }
 //makes JSON request and stores data as local variable
-makeLocalJson();
-doTheMainPage();
+makeLocalJson(function() {
+  doTheMainPage();
+});
