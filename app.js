@@ -1,5 +1,5 @@
 const iNAT_SEARCH_URL = 'https://api.inaturalist.org/v1/observations';
-const EDIBLES_JSON = 'http://localhost:8080/edibles.json';
+const EDIBLES_JSON = 'edibles.json';
 let LOCAL_JSON = {};
 let INAT_QUERY = [];
 let MAP;
