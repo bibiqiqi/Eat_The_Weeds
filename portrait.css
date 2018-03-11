@@ -1,284 +1,91 @@
-
-body {
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1 {
-  font-size: 5em;
-  font-family: 'Amatic SC', cursive;
-  margin: 0 auto;
-}
+/* Mobile first queries */
 
 h2 {
   font-size: 1.25em;
-  margin: 5% auto;
 }
 
 button {
-  font-family: 'Amatic SC', cursive;
-  font-weight: bold;
   font-size: 2em;
-  border: 1px dotted black;
-  background-color: white;
-  color: black;
 }
 
-.container {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  background-color: #57ff2f47;
-}
-
-.cover-page header {
-  padding: 5% 5%;
-  color: black
-}
-
-.cover-page img {
-  width: 100%;
-  height: auto;
+#cover-page button{
   margin: 5% auto;
 }
 
-.cover-page button{
-  margin: 5% auto;
-  background-color: transparent;
+#cover-page img {
+  width: 100%;
 }
 
-.main-page .container {
-  background-color: white;
+#main-page .container {
   padding: 5% 5%;
 }
 
-.main-page h1 {
+#main-page h1 {
   font-size: 4em;
 }
 
-.main-page h1:nth-child(3) {
-  font-size: 3em;
-}
-
-.main-page ul {
+#main-page ul {
   padding: 5% 5%;
 }
 
-.main-page li {
+#main-page li {
   font-size: 1.25em;
-  line-height: 1.1em;
-  margin: .5em 0;
 }
 
-.main-page #down-arrow {
+#down-arrow {
   width: 35%;
   margin: 0 auto;
 }
 
-.img-browse .container {
-  margin: 2em auto;
-  width: 100%;
-  height: 100%;
-  background-color: white;
+.figures {
+  width: 95vmin;
+  height: 95vmin;
 }
 
-.img-browse .figures {
-  position: relative;
+.img-grid,
+.img-hover {
+  width: 95vmin;
+  height: 95vmin;
 }
 
-.img-grid, .img-grid-hover {
-  width: 90vmin;
-  height: 90vmin;
-  border: 3vmin solid black;
+#results-page form {
+  height: 50vmax;
+  width: 90%;
 }
 
-.img-grid {
-  background-position: center center;
-  background-size: cover;
-  border: 3vmin solid black;
-  margin: 1vmin auto;
-  position: relative;
-  z-index: 1;
-}
-
-.img-grid-hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgba(20, 20, 20, 0.75);
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-left: -47.5vmin;
-  z-index: 5;
-}
-
-.img-grid-hover h1, {
-  font-size: 4em;
-}
-
-.img-grid-hover h2 {
-  font-size: 2em;
-}
-
-.results .container {
-  background-color: white;
+#results-page .container {
   padding: 2% 2%;
-  display: flex;
   flex-direction: column;
 }
 
-.results .plant-info {
+#plant-info {
   margin-top: 3%;
 }
 
-.results h1, .results h2 {
-  display: inline-block;
-  margin: 0px auto;
-}
-
-.results h1 {
-  font-size: 2em;
-}
-
-.results h2 {
- font-size: 1.5em;
-}
-
-.results form {
-  height: 50vmax;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.results p, .results label .results input{
-  font-size: 1em;
-}
-
-.results .address-box {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px;
-}
-
-.address-box #address {
-  border: 1px greenYellow solid;
-  width: 5em;
-}
-
-.address-box label {
- flex-grow: 1;
-}
-
-.address-box input {
-  flex-grow: 4;
-}
-
-.address-box label:nth-child(3)  {
-  display: none;
-}
-
-.plant-info main {
+#plant-info main {
   padding: .5em;
 }
 
-.plant-info main img {
-  border: black solid .25em;
-  margin-right: .5em;
+#plant-info main img {
   height: 50%;
   width: 50%;
-  float: left;
 }
 
-.plant-info main p {
-  font-size: .9em;
-  text-align: left;
+#address-box label:nth-child(3)  {
+  display: none;
 }
 
-.plant-info main p:nth-child(3) {
-  display: inline-block;
-  float: left;
-  font-size: 1em;
-  margin: .25em;
+#address {
+  width: 5em;
 }
 
-.plant-info main button {
-  font-size: 1em;
-  display: inline-block;
-  border: 1px solid black;
-  background-color: #57ff2f47;
-}
-
-/* unvisited link */
-.plant-info main a:link {
-  color: black;
-  text-decoration: none;
-  border-bottom: 1px solid #57ff2f47;
-}
-
-/* visited link */
-.plant-info main a:visited {
-  color: #57ff2f47;
-}
-
-.results .buttons {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.results .location-submit {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
-  border: 1px solid black;
-  background-color: #57ff2f47;
-  font-size: 1em;
-  margin: 3px 6px;
-}
-
-.results .map {
-  height: 50vmax;
-  width: 100vmin;
-  flex-grow: 1;
-  margin-top:
-}
-
-.results .no-results {
+#no-results {
   padding: 50% 20%;
-  background-image: url(./images/no-results.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
-.results .no-results h2 {
-  font-size: 2em;
-}
-
-.results .no-results button {
+#no-results button {
   margin: 10%;
-  background-color: #57ff2f47;
 }
-
-.map .search-again {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
-  border: 1px greenYellow solid;
-  background-color: white;
-  font-size: 1em;
-  margin: 3px 6px;
-}
-
-.hidden {
-  display: none !important;
-}
-
-/* Mobile first queries */
 
 /* Larger than mobile */
 @media screen and (min-width: 400px) {
@@ -290,47 +97,47 @@ button {
     font-size: 3em;
   }
 
-  .main-page h1 {
+  #main-page h1 {
     font-size: 4.5em;
   }
 
-  .main-page h2 {
+  #main-page h2 {
     font-size: 2em;
     margin: 3% auto;
   }
 
-  .main-page h1:nth-child(3) {
+  #main-page h1:nth-child(3) {
     font-size: 3.75em;
   }
 
-  .main-page ul {
+  #main-page ul {
     font-size: 1.2em;
     padding: 3% 3%;
   }
 
-  .results .container {
+  #results-page .container {
     padding: 3% 3%;
   }
 
-  .results h1 {
+  #results-page h1 {
     font-size: 2.5em;
   }
 
-  .results h2 {
+  #results-page h2 {
     font-size: 2em;
   }
 
-  .results .plant-info {
+  #results-page #plant-info {
     margin-top: 3%;
   }
 
-  .plant-info main img {
+  #plant-info main img {
     height: 45%;
     width: 45%;
     margin: 5%;
   }
 
-  .plant-info main p {
+  #plant-info main p {
     font-size: 1em;
     margin: 5%;
   }
@@ -339,11 +146,11 @@ button {
     font-size: 4em;
   }
 
-  form .address-box label {
+  form #address-box label {
     font-size: 1.5em;
   }
 
-  .results .location-submit {
+  #results-page #location-submit {
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1.5em;
@@ -365,66 +172,63 @@ button {
     font-size: 3em;
   }
 
-  .cover-page img {
+  #cover-page img {
     margin: 3% auto;
+    width: 100%;
   }
 
-  .cover-page h2 {
+  #cover-page h2 {
     margin: 0 auto;
   }
 
-  .main-page h1 {
+  #main-page h1 {
     font-size: 7em;
   }
 
-  .main-page h2 {
+  #main-page h2 {
     font-size: 3em;
   }
 
-  .main-page h1:nth-child(3) {
+  #main-page h1:nth-child(3) {
     font-size: 5em;
   }
 
-  .main-page ul {
+  #main-page ul {
     font-size: 1.5em;
   }
 
-  .img-grid-hover {
-    left
-  }
-
-  .results .container {
+  #results-page .container {
     padding: 4% 4%;
   }
 
-  .results h1 {
+  #results-page h1 {
     font-size: 3.5em;
   }
 
-  .results h2 {
+  #results-page h2 {
     font-size: 2em;
   }
 
-  .results .plant-info {
+  #results-page #plant-info {
     margin-top: 5%;
   }
 
-  .plant-info main img {
+  #plant-info main img {
     height: 45%;
     width: 45%;
     margin: 5%;
   }
 
-  .plant-info main p {
+  #plant-info main p {
     font-size: 1.5em;
     margin: 5%;
   }
 
-  .plant-info main p:nth-child(3) {
+  #plant-info main p:nth-child(3) {
     font-size: 2em;
   }
 
-  .plant-info main button {
+  #plant-info main button {
     font-size: 2em;
   }
 
@@ -432,11 +236,11 @@ button {
     font-size: 4em;
   }
 
-  form .address-box label {
+  form #address-box label {
     font-size: 2em;
   }
 
-  .results .location-submit {
+  #results-page #location-submit {
     font-size: 2em;
   }
 }
@@ -453,47 +257,64 @@ button {
     margin: 3% auto;
   }
 
-  .cover-page h2 {
+  #cover-page h2 {
     margin: 3% auto;
   }
 
-  .main-page h1 {
+  #main-page h1 {
     font-size: 7.5em;
   }
 
-  .main-page h1:nth-child(3) {
+  #main-page h1:nth-child(3) {
     font-size: 5.5em;
   }
 
-  .main-page ul {
+  #main-page ul {
     font-size: 1.75em;
   }
 
-  .main-page .img-grid-hover {
+  #main-page .img-hover {
     left: 10vmin;
   }
 
-  .results .container {
+  #img-browse #grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #img-browse .figures {
+    width: 46vmin;
+    height: 46vmin;
+  }
+
+  .img-grid, .img-hover {
+    width: 46vmin;
+    height: 46vmin;
+  }
+
+  #results-page .container {
     padding: 4% 4%;
   }
 
-  .results h1 {
+  #results-page h1 {
     font-size: 4.5em;
   }
 
-  .results h2 {
+  #results-page h2 {
     font-size: 2.5em;
   }
 
-  .plant-info main p {
+  #plant-info main p {
     font-size: 1.75em;
   }
 
-  form .address-box label {
+  #address-box label {
     font-size: 2.5em;
   }
 
-  .results .location-submit {
+  #location-submit {
     font-size: 2.5em;
   }
 }

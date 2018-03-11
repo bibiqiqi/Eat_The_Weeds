@@ -1,4 +1,3 @@
-
 body {
   box-sizing: border-box;
   font-size: 18px;
@@ -12,14 +11,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25em;
   margin: 5% auto;
 }
 
 button {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  font-size: 2em;
   border: 1px dotted black;
   background-color: white;
   color: black;
@@ -27,462 +24,198 @@ button {
 
 .container {
   text-align: center;
-  height: 100vmax;
-  width: 100vmin;
+  height: 100vh;
+  width: 100vw;
   margin: 0 auto;
   position: relative;
+  background-color: white;
+}
+
+#cover-page .container {
   background-color: #57ff2f47;
 }
 
-.cover-page header {
+#cover-page header {
   padding: 5% 5%;
   color: black
 }
 
-.cover-page img {
-  width: 100%;
-  height: auto;
-  margin: 5% auto;
-}
-
-.cover-page button{
-  margin: 5% auto;
+#cover-page button{
   background-color: transparent;
 }
 
-.main-page .container {
-  background-color: white;
-  padding: 5% 5%;
-}
-
-.main-page h1 {
-  font-size: 4em;
-}
-
-.main-page h1:nth-child(3) {
+#main-page h1:nth-child(3) {
   font-size: 3em;
 }
 
-.main-page ul {
-  padding: 5% 5%;
-}
-
-.main-page li {
-  font-size: 1.25em;
+#main-page li {
   line-height: 1.1em;
   margin: .5em 0;
 }
 
-.main-page #down-arrow {
-  width: 35%;
-  margin: 0 auto;
-}
-
-.img-browse .container {
+#img-browse .container {
   margin: 2em auto;
   width: 100%;
   height: 100%;
-  background-color: white;
 }
 
-.img-browse .figures {
+.figures {
   position: relative;
+  border: 10px solid black;
 }
 
 .img-grid {
-  width: 90vmin;
-  height: 90vmin;
   background-position: center center;
   background-size: cover;
-  border: .75em solid black;
-  margin: .5em auto;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
 
-.img-grid-hover {
+.img-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(20, 20, 20, 0.75);
   color: white;
-  width: 94vmin;
-  height: 94vmin;
   position: absolute;
   top: 0;
-  left: 2vmin;
   z-index: 5;
 }
 
-.img-grid-hover h1, {
+.img-hover h1 {
   font-size: 4em;
 }
 
-.img-grid-hover h2 {
+.img-hover h2 {
   font-size: 2em;
 }
 
-.results .container {
-  background-color: white;
-  padding: 2% 2%;
+#results-page .container {
   display: flex;
-  flex-direction: column;
 }
 
-.results h1, .results h2 {
+#results-page h1,
+#results-page h2 {
   display: inline-block;
   margin: 0px auto;
 }
 
-.results h1 {
+#results-page h1 {
   font-size: 2em;
 }
 
-.results h2 {
+#results-page h2 {
  font-size: 1.5em;
 }
 
-.results form {
-  height: 50vmax;
-  width: 90%;
+#results-page form {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.results p, .results label .results input{
+#results-page p,
+#results-page label,
+#results-page input {
   font-size: 1em;
 }
 
-.results .address-box {
+#address {
+  border: 1px greenYellow solid;
+}
+
+#address-box {
   display: flex;
   justify-content: space-between;
   margin: 10px;
 }
 
-.address-box #address {
-  border: 1px greenYellow solid;
-  width: 5em;
-}
-
-.address-box label {
+#address-box label {
  flex-grow: 1;
 }
 
-.address-box input {
+#address-box input {
   flex-grow: 4;
 }
 
-.plant-info .main {
-  padding: .5em;
-}
-
-.plant-info .main img {
+#plant-info main img {
   border: black solid .25em;
   margin-right: .5em;
-  height: 50%;
-  width: 50%;
   float: left;
 }
 
-.plant-info .main ul {
+#plant-info main p {
   font-size: .9em;
   text-align: left;
 }
 
-.plant-info .main li {
-  margin: .25em 0;
+#plant-info main p:nth-child(3) {
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  margin: .25em;
 }
 
-.results .buttons {
-  display: flex;
-  justify-content: flex-end;
+#plant-info main button {
+  font-size: 1em;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #57ff2f47;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 4%;
 }
 
-.results .location-submit {
+#plant-info main a:link {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #57ff2f47;
+}
+
+#plant-info main a:visited {
+  color: #57ff2f47;
+}
+
+#location-submit {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  border: 1px greenYellow solid;
-  background-color: white;
+  border: 1px solid black;
+  background-color: #57ff2f47;
   font-size: 1em;
-  margin: 3px 6px;
+  margin: 10% 5%;
 }
 
-.results .map {
+#map {
   height: 50vmax;
   width: 100vmin;
   flex-grow: 1;
+  margin: 2%;
 }
 
-.map .search-again {
+#map .search-again {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   border: 1px greenYellow solid;
   background-color: white;
   font-size: 1em;
   margin: 3px 6px;
+}
+
+#no-results {
+  background-image: url(./images/no-results.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#no-results h2 {
+  font-size: 2em;
+}
+
+#no-results button {
+  background-color: #57ff2f47;
 }
 
 .hidden {
   display: none !important;
 }
-
-/* Mobile first queries */
-
-/* Larger than mobile */
-@media screen and (min-width: 400px, orientation: portrait) {
-  h2 {
-    font-size: 1.5em;
-  }
-
-  button {
-    font-size: 3em;
-  }
-
-  .main-page h1 {
-    font-size: 4.5em;
-  }
-
-  .main-page h2 {
-    font-size: 2em;
-    margin: 3% auto;
-  }
-
-  .main-page h1:nth-child(3) {
-    font-size: 3.75em;
-  }
-
-  .main-page ul {
-    font-size: 1.2em;
-    padding: 3% 3%;
-  }
-
-  .results .container {
-    padding: 3% 3%;
-  }
-
-  .results h1 {
-    font-size: 2.5em;
-  }
-
-  .results h2 {
-    font-size: 2em;
-  }
-
-  .results .plant-info {
-    margin-top: 3%;
-  }
-
-  .plant-info .main img {
-    height: 45%;
-    width: 45%;
-    margin: 5%;
-  }
-
-  .plant-info .main ul {
-    font-size: 1.25em;
-    margin: 5%;
-  }
-
-  form h1 {
-    font-size: 4em;
-  }
-
-  form .address-box label {
-    font-size: 1.5em;
-  }
-
-  .results .location-submit {
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 1.5em;
-  }
-
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 {
-    font-size: 7em;
-  }
-
-  h2 {
-    font-size: 2.25em;
-  }
-
-  button {
-    font-size: 3em;
-  }
-
-  .cover-page img {
-    margin: 3% auto;
-  }
-
-  .cover-page h2 {
-    margin: 0 auto;
-  }
-
-  .main-page h1 {
-    font-size: 7em;
-  }
-
-  .main-page h2 {
-    font-size: 3em;
-  }
-
-  .main-page h1:nth-child(3) {
-    font-size: 5em;
-  }
-
-  .main-page ul {
-    font-size: 1.5em;
-  }
-
-  .results .container {
-    padding: 4% 4%;
-  }
-
-  .results h1 {
-    font-size: 3.5em;
-  }
-
-  .results h2 {
-    font-size: 2em;
-  }
-
-  .results .plant-info {
-    margin-top: 5%;
-  }
-
-  .plant-info .main img {
-    height: 45%;
-    width: 45%;
-    margin: 5%;
-  }
-
-  .plant-info .main ul {
-    font-size: 1.5em;
-    margin: 5%;
-  }
-
-  form h1 {
-    font-size: 4em;
-  }
-
-  form .address-box label {
-    font-size: 2em;
-  }
-
-  .results .location-submit {
-    font-size: 2em;
-  }
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  h1 {
-    font-size: 7.5em;
-    margin: 1% auto;
-  }
-
-  h2 {
-    font-size: 2.25em;
-    margin: 3% auto;
-  }
-
-  .cover-page h2 {
-    margin: 3% auto;
-  }
-
-  .main-page h1 {
-    font-size: 7.5em;
-  }
-
-  .main-page h1:nth-child(3) {
-    font-size: 5.5em;
-  }
-
-  .main-page ul {
-    font-size: 1.75em;
-  }
-
-  .main-page .img-grid-hover {
-    left: 10vmin;
-  }
-
-  .results .container {
-    padding: 4% 4%;
-  }
-
-  .results h1 {
-    font-size: 4.5em;
-  }
-
-  .results h2 {
-    font-size: 2.5em;
-  }
-
-  .plant-info .main ul {
-    font-size: 1.75em;
-  }
-
-  form .address-box label {
-    font-size: 2.5em;
-  }
-
-  .results .location-submit {
-    font-size: 2.5em;
-  }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 10em;
-  }
-
-  h2 {
-    font-size: 3em;
-  }
-
-  button {
-    font-size: 4.5em;
-  }
-
-  .main-page h1 {
-    font-size: 10em;
-  }
-
-  .main-page h2 {
-    font-size: 4em;
-  }
-
-  .main-page h1:nth-child(3) {
-    font-size: 7em;
-  }
-
-  .main-page ul {
-    font-size: 2.5em;
-  }
-
-  .results h1 {
-    font-size: 6em;
-  }
-
-  .results h2 {
-    font-size: 4em;
-  }
-
-  .plant-info .main ul {
-    font-size: 2em;
-  }
-
-  form .address-box label {
-    font-size: 3.25em;
-  }
-
-  .results .location-submit {
-    font-size: 3em;
-  }
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
