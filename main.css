@@ -17,9 +17,15 @@ h2 {
 button {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  border: 1px dotted black;
+  border: 2px dotted black;
   background-color: white;
   color: black;
+  background-color: transparent;
+}
+
+form {
+  background-color: #57ff2f47;
+  color: white;
 }
 
 .container {
@@ -40,7 +46,7 @@ button {
   color: black
 }
 
-#cover-page button{
+#cover-page button {
   background-color: transparent;
 }
 
@@ -117,23 +123,19 @@ button {
 }
 
 #results-page p,
-#results-page label,
-#results-page input {
+#results-page label {
   font-size: 1em;
 }
 
 #address {
   border: 1px greenYellow solid;
+  margin-left: 1%;
 }
 
 #address-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px;
-}
-
-#address-box label {
- flex-grow: 1;
 }
 
 #address-box input {
@@ -159,12 +161,12 @@ button {
 }
 
 #plant-info main button {
-  font-size: 1em;
+  font-size: .7em;
   display: inline-block;
-  border: 1px solid black;
+  border: 1px dotted black;
   background-color: #57ff2f47;
   font-family: 'Open Sans Condensed', sans-serif;
-  margin: 4%;
+  margin: 1%;
 }
 
 #plant-info main a:link {
@@ -180,10 +182,10 @@ button {
 #location-submit {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  border: 1px solid black;
-  background-color: #57ff2f47;
-  font-size: 1em;
-  margin: 10% 5%;
+  border: 1px dotted black;
+  background-color: white;
+  font-size: .7em;
+  margin: 0 auto;
 }
 
 #map {

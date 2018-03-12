@@ -6,6 +6,11 @@ button {
   font-size: 2.5em;
 }
 
+form {
+  height: 100vmin;
+  width: 45vmax;
+}
+
 #cover-page .container{
   background-image: url(./images/cover_page/cover_page_landscape_pale.jpg);
   background-size: cover;
@@ -68,11 +73,6 @@ button {
   height: 46vmin;
 }
 
-#results-page form {
-  height: 100vmin;
-  width: 30vmax;
-  }
-
 #results-page .container {
   padding: 3% 3%;
   flex-direction: row;
@@ -105,8 +105,8 @@ button {
   flex-grow: 4;
 }
 
-#address {
-  width: 15em;
+#results-page #address {
+  width: 100%;
   font-size: 1em;
   margin: .5em auto;
 }
@@ -164,7 +164,7 @@ button {
     font-size: 2em;
   }
 
-#plant-info {
+  #plant-info {
     margin-top: 0;
   }
 
@@ -192,7 +192,6 @@ button {
     padding-right: 2%;
     font-size: 1.5em;
   }
-
 }
 
 /* Larger than tablet or desktop */
@@ -243,9 +242,9 @@ button {
     font-size: 3em;
   }
 
-  #address {
-    width: 8em;
-    font-size: 2.25em;
+  #results-page #address {
+    width: 10em;
+    font-size: 2em;
     margin: .5em auto;
   }
 
@@ -266,7 +265,7 @@ button {
   }
 
   #plant-info main button {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 5%;
   }
 
@@ -278,8 +277,10 @@ button {
     font-size: 4.5em;
   }
 
-  #location-submit {
-    font-size: 2.5em;
+  #results-page #location-submit {
+    font-size: 2em;
+    margin: 10% auto;
+    font-weight: bold;
   }
 }
 

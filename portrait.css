@@ -37,6 +37,10 @@ button {
   margin: 0 auto;
 }
 
+#img-browse {
+  margin-top: 30%;
+}
+
 .figures {
   width: 95vmin;
   height: 95vmin;
@@ -127,7 +131,7 @@ button {
     font-size: 2em;
   }
 
-  #results-page #plant-info {
+  #plant-info {
     margin-top: 3%;
   }
 
@@ -147,10 +151,10 @@ button {
   }
 
   form #address-box label {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
-  #results-page #location-submit {
+  #location-submit {
     padding-left: 2%;
     padding-right: 2%;
     font-size: 1.5em;
@@ -209,14 +213,14 @@ button {
     font-size: 2em;
   }
 
-  #results-page #plant-info {
+  #plant-info {
     margin-top: 5%;
   }
 
   #plant-info main img {
-    height: 45%;
-    width: 45%;
-    margin: 5%;
+    height: 40%;
+    width: 40%;
+    margin: 4%;
   }
 
   #plant-info main p {
@@ -229,18 +233,18 @@ button {
   }
 
   #plant-info main button {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   form h1 {
     font-size: 4em;
   }
 
-  form #address-box label {
+  #address-box label {
     font-size: 2em;
   }
 
-  #results-page #location-submit {
+  #location-submit {
     font-size: 2em;
   }
 }
@@ -273,23 +277,24 @@ button {
     font-size: 1.75em;
   }
 
-  #main-page .img-hover {
+  .img-hover {
     left: 10vmin;
   }
 
-  #img-browse #grid {
+  #grid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
 
-  #img-browse .figures {
+  .figures {
     width: 46vmin;
     height: 46vmin;
   }
 
-  .img-grid, .img-hover {
+  .img-grid,
+  .img-hover {
     width: 46vmin;
     height: 46vmin;
   }
@@ -315,6 +320,6 @@ button {
   }
 
   #location-submit {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 }
