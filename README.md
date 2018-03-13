@@ -27,6 +27,8 @@ Edible Summary for Plant and Map Results
 * `git clone https://github.com/bibiqiqi/Eat_The_Weeds.git`
 * `npm install`
 * `http-server`
+* `browse to http://localhost:8080`
+* learn out about weeds to eat!
 
 ## Built With
 * HTML
