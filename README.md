@@ -1,4 +1,4 @@
-# Eat_The_Weeds
+# Eat The Weeds
 This application was designed as a tool to encourage more natural literacy in people by highlighting the cultural connections (food, medicinal, tools etc) that exist in the plants, fungi, and trees around us. I've started with highlighting the edible values of common weeds, and plan to expand on this. Once you user picks an edible weed by image, they can input their location's address to see how many observations of this plant have been sited and posted to the app iNaturalist, by their users.
 
 ## Disclaimer
@@ -26,7 +26,7 @@ Edible Summary for Plant and Map Results
 ## Installation
 * `git clone https://github.com/bibiqiqi/Eat_The_Weeds.git`
 * `npm install`
-* `http-server'
+* `http-server`
 
 ## Built With
 * HTML
