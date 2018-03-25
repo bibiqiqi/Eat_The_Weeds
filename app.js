@@ -100,7 +100,7 @@ function addressToGeo() {
       MAP.setCenter(USER_INFO.geo);
     } else {
     }
-    iNatDataToMarkers();
+    getInatData();
   });
 }
 
@@ -115,10 +115,12 @@ function noResults() {
 function revealMap() {
   $('#map').removeClass('hidden');
   $('.search-again').removeClass('hidden');
+  MAP.fitBounds(BOUNDS);
+  MAP.panToBounds(BOUNDS);
 }
 
 // makes request to iNAT API, sets the markers on the map, and zooms into map
-function iNatDataToMarkers() {
+function getInatData() {
   let taxonName = LOCAL_JSON.plants[USER_INFO.choice].scientificName;
   let lat = USER_INFO.geo.lat;
   let lng = USER_INFO.geo.lng;
@@ -130,29 +132,29 @@ function iNatDataToMarkers() {
     mappable: true,
     geo: true,
   };
-  $.getJSON(iNAT_SEARCH_URL, query, function (data) {
-    let results = data.results;
-    if (results.length == 0) {
-    noResults();
-    }
-    else {
-      BOUNDS = new google.maps.LatLngBounds();
-      let markerGeo = {};
-      results.forEach(function(result) {
-        markerGeo.lat = parseFloat(result.geojson.coordinates[1]);
-        markerGeo.lng = parseFloat(result.geojson.coordinates[0]);
-        MARKER = new google.maps.Marker({
-          position: markerGeo,
-          map: MAP
-        });
-        let loc = new google.maps.LatLng(markerGeo.lat, markerGeo.lng);
-        BOUNDS.extend(loc);
+  $.getJSON(iNAT_SEARCH_URL, query, setMarkers);
+}
+
+function setMarkers(data) {
+  let results = data.results;
+  if (results.length == 0) {
+  noResults();
+  }
+  else {
+    BOUNDS = new google.maps.LatLngBounds();
+    let markerGeo = {};
+    results.forEach(function(result) {
+      markerGeo.lat = parseFloat(result.geojson.coordinates[1]);
+      markerGeo.lng = parseFloat(result.geojson.coordinates[0]);
+      MARKER = new google.maps.Marker({
+        position: markerGeo,
+        map: MAP
       });
-      MAP.fitBounds(BOUNDS);
-      MAP.panToBounds(BOUNDS);
-      revealMap();
-    }
-  });
+      let loc = new google.maps.LatLng(markerGeo.lat, markerGeo.lng);
+      BOUNDS.extend(loc);
+    });
+    revealMap();
+  }
 }
 
 // event listeners
