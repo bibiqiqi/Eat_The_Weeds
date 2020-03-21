@@ -1,4 +1,4 @@
-const iNAT_SEARCH_URL = 'https://api.inaturalist.org/v1/observations';
+const iNAT_SEARCH_URL = 'https://api.inaturalist.org/v1/observation_fields';
 const EDIBLES_JSON = 'edibles.json'
 let LOCAL_JSON = {};
 let INAT_QUERY = [];
@@ -7,6 +7,7 @@ let GEOCODER;
 let MARKER;
 let USER_INFO = {};
 let BOUNDS;
+
 
 // intitializes results map
 function initMap() {
